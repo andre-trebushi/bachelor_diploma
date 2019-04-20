@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 LaTeX-шаблон для русской кандидатской диссертации и её автореферата.
 
 ## Особенности
@@ -54,3 +55,7 @@ $ sudo fc-cache -fv
 * Большое спасибо Юлии Мартыновой за [оригинальный вариант шаблона](http://alessia-lano.livejournal.com/4267.html).
 * Большое спасибо [dustalov](https://github.com/dustalov), [Lenchik](https://github.com/Lenchik), [tonkonogov](https://github.com/tonkonogov) за значительный вклад и обсуждения.
 * Спасибо [storkvist](https://github.com/storkvist), [kshmirko](https://github.com/kshmirko), [ZoomRmc](https://github.com/ZoomRmc), [tonytonov](https://github.com/tonytonov), [Thibak](https://github.com/Thibak), [eximius8](https://github.com/eximius8), [Nizky](https://github.com/Nizky) за полезные правки и замечания.
+=======
+# diploma
+undergraduate thesis
+>>>>>>> 705260c616880d22e0d957d7deaf805d3d8e2320
