@@ -1,0 +1,2 @@
+# diploma
+undergraduate thesis
