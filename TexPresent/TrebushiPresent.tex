@@ -7,11 +7,11 @@
 \usepackage{cite,enumerate,float,indentfirst}
 
 \usepackage{xmpmulti}
+\usepackage{gensymb} % для обозачения град
 %\usefonttheme{structurebold}     % Font theme: serif
 %\usepackage{ccfonts}     % Font family: Concrete Math
 %\usepackage[T1]{fontenc} % Font encoding: T1
-
-\usetheme{Boadilla}
+\DeclareMathOperator{\sinc}{sinc}
 
 \hypersetup{
 	colorlinks=true,
@@ -19,7 +19,10 @@
 	filecolor=magenta,      
 	urlcolor=cyan,
 }
+
+\usetheme{Boadilla}
 \usecolortheme{seahorse}
+%\usefonttheme[onlymath]{serif}
 
 \setbeamercolor{footline}{fg=blue}
 \setbeamertemplate{footline}{
@@ -68,7 +71,7 @@
 \begin{itemize}
 	\item Моделирование \textbf{вставных устройств} \\(ондуляторы, вигглеры)
   	\item Моделирование \textbf{оптических элементов} \\(апертуры, монохроматоры, фокусирующие зеркала)
-  	\item Создание \textbf{среды для обмена информаций} по проектированию
+  	\item Создание \textbf{среды для обмена информацией} по проектированию
 	\item Координация работы между исследовательскими группами разных институтов (ИЯФ, Институт катализа и д.р.)
 \end{itemize}
 \end{center}
@@ -83,8 +86,7 @@
 		\item Структура проектного офиса ЦКП <<СКИФ>>
 		\item Обзор источников излучения для станций
 		\item Оптические схемы станций
-		\item Обсуждение результатов	
-		\item Благодарности 
+		\item Обсуждение результатов и планов		 
 	\end{itemize}
 \end{center}
 \end{frame}
@@ -123,7 +125,7 @@
 
 \small
 \begin{frame}
-\frametitle{Сибирский Кольцевой Источник Фотонов}\label{t1}
+\frametitle{СКИФ \centering{\small{Сибирский Кольцевой Источник Фотонов}}}\label{t1}
 \begin{figure}[h]
 	\center{}
 	\begin{minipage}[h]{0.75\linewidth}
@@ -142,35 +144,27 @@
 
 \small
 \begin{frame}
-\frametitle{Оптическая группа ЦКП <<СКИФ>>}\label{t1}
-\begin{figure}[h]
-	\center{\includegraphics[width=0.8\linewidth]{pic/scheme.pdf}}
-\end{figure}
-\end{frame}
-
-\small
-\begin{frame}
 \frametitle{Структура синхротрона}\label{t1}
 \vspace{-10pt}
 \begin{figure}[h]
 	\center{\includegraphics[width=0.95\linewidth]{pic/outline.pdf}}	
 \end{figure}
 \end{frame}
-\iffalse
-\vspace{-10pt}
-\begin{table}
-	\centering
-	\begin{tabular}{ccccc}
-		\hline
-		$\sigma_x, [m]$ 	   & $\sigma_{x'}, [rad]$   & $\sigma_y, [m]$       & $\sigma_{y'}, [rad]$   & $\Delta E / E$      \\ \hline
-		$33.0 \times 10^{-6}$  & $2.65 \times 10^{-6}$  &  $8.6 \times 10^{-7}$ & $5.0 \times 10^{-7}$   & $8.6 \times 10^{-4}$ \\ \hline	
-	\end{tabular}
-\end{table}
-\fi
+
 
 \small
 \begin{frame}
-\frametitle{SRW. Сред моделирования}\label{t1}
+\frametitle{Оптическая группа ЦКП <<СКИФ>>}\label{t1}
+\vspace{-20pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=0.8\linewidth]{pic/scheme.pdf}}
+\end{figure}
+\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{SRW. Среда моделирования}\label{t1}
 SRW --- Synchrotron Radiation Workshop. Код для моделирования оптических систем.
 $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \begin{itemize}
@@ -185,7 +179,7 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 	\centering
 	\vspace{-10pt}
 	$\mathnormal{g_2(x_2, y_2) = \displaystyle\int\limits_{-\infty}^{\infty}\displaystyle\int\limits_{-\infty}^{\infty}
-		g_1(\eta, \xi) \ast h(x_2 - \eta, y_2 - \xi)}d\eta d\xi$ \\
+		g_1(\eta, \xi) h(x_2 - \eta, y_2 - \xi)}d\eta d\xi$ \\
 	\vspace{-6pt}
 	$\Updownarrow$\\
 	\vspace{6pt}
@@ -203,60 +197,151 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \frametitle{Ондулятор --- интерференционное устройство}\label{t1}
 \begin{figure}[h]
 		\center{$\mathnormal{n \lambda_{ph} = s_{ph} - \lambda_u \cos\theta}$}\hspace{10pt}$\longrightarrow$\hspace{10pt}
-		{$\mathnormal{\lambda_{ph} = \cfrac{\lambda_{u}}{2n\gamma^2 K}(1 + \cfrac{K^2}{2} + \gamma^2\theta^2)}$}
+		{$\mathnormal{\lambda_{ph} = \cfrac{\lambda_{u}}{2n\gamma^2 K}\bigg(1 + \cfrac{K^2}{2} + \gamma^2\theta^2\bigg)}$}
+		%\\
+%		$K = \cfrac{eB_0 \lambda}{2\pi m_ek_w}$
+		%\vspace{-20pt}
 		\center{\includegraphics[width=0.99\linewidth]{pic/traj.pdf}}
 \end{figure}
-\end{frame}
+ \end{frame}
 
 \small
 \begin{frame}
-\frametitle{Оптическая схема станции 1-1}\label{t1}
+\frametitle{Стандартные ондуляторы для СКИФ}\label{t1}
+\vspace{-10pt}
 \begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\raggedright{\includegraphics[width=0.99\linewidth]{pic/sim_und.pdf}}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
+	\vspace{10pt}
+	\begin{table}[h]
+		\begin{tabular}{|c|c|c|c|}
+			\hline\hline
+			\rule{0pt}{3ex}$\mathnormal{B, [T]}$      & $\mathnormal{0.7 - 1.5}$   \\ \hline
+			\rule{0pt}{3ex}$\mathnormal{L, [m]}$ & до $\mathnormal{3}$        \\ \hline
+			\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{15 - 20}$     \\ \hline
+			\rule{0pt}{3ex}$\mathnormal{N}$         & $\mathnormal{\geq 120}$ \\ \hline
+			\rule{0pt}{3ex}Фазовая ошибка &$\mathnormal{\leq 3^{\circ}}$  \\
+			\hline
+		\end{tabular}
+	\end{table}
+	\end{minipage}
+\end{figure}
+\vspace{-20pt}
+\begin{table}[h]
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\hline
+		\rule{0pt}{3ex}   $\mathnormal{E, [GeV]}$ & $\mathnormal{I, [mA]}$ & $\mathnormal{\beta_x, [m]}$ & $\mathnormal{\beta_{y}, [m]}$&\\ \hline
+		\rule{0pt}{3ex}   $\mathnormal{3}$		 & $\mathnormal{400}    $ & $\mathnormal{12.48}$        & $\mathnormal{1.99}$  &   \\ \hline
+		\hline	
+		\rule{0pt}{3ex}   $\mathnormal{\sigma_x, [m]}$ & $\mathnormal{\sigma_{x'}, [rad]}$ & $\mathnormal{\sigma_y, [m]}$     & $\mathnormal{\sigma_{y'}, [rad]}$ & $\mathnormal{\Delta E / E}$      \\ \hline
+		\rule{0pt}{3ex}   $\mathnormal{33.0 \times 10^{-6}}$  & $\mathnormal{2.65 \times 10^{-6}}$  &  $\mathnormal{8.6 \times 10^{-7}}$ & $\mathnormal{5.0 \times 10^{-7}}$   & $\mathnormal{8.6 \times 10^{-4}}$ \\
+		\hline
+	\end{tabular}
+\end{table}
+\begin{figure}[h]
+
+\end{figure}
+\end{frame}
+
+
+\small
+\begin{frame}
+\frametitle{Ондулятор станции 1-4 (Quick-XAFS)}\label{t1}
+\vspace{-10pt}
+\begin{figure}[h]
+	\raggedright{\includegraphics[width=0.99\linewidth]{pic/und.pdf}}
+\end{figure}
+\vspace{-25pt}
+\begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\includegraphics[width=0.99\linewidth]{pic/spec_C.pdf}\\
+		\tiny{$\mathnormal{\hat{C} = CL_u = 2\pi N_u\cfrac{\Delta\omega}{\omega_r}}$}
+	\end{minipage}	
+	\begin{minipage}[h]{0.49\linewidth}
+	    \begin{itemize}
+		\item {Широкий спектр для Quick-XAFS  спектроскопии $\mathnormal{\approx 1}$ $\mathnormal{keV}$}
+		\item {$\mathnormal{\cfrac{\Delta \omega}{\omega_{ph}} = \cfrac{\Delta \lambda}{\lambda_{ph}} \sim \cfrac{1}{nL_u}}$}
+		\end{itemize}
+	\end{minipage}
 \end{figure}
 \end{frame}
 
 \small
 \begin{frame}
-\frametitle{Результаты}\label{t1}
+\frametitle{Оценки. Интерференция в спектре}\label{t1}
+\vspace{-5pt}
 \begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\center{Аналитический результат}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/spec_from_sec_und.pdf}}
+	\end{minipage}	
+	\begin{minipage}[h]{0.49\linewidth}
+		\center{Симуляция}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec.pdf}}
+	\end{minipage}
+\end{figure}
+\vspace{-15pt}
+\begin{figure}[h]
+	$\mathnormal{{\widetilde{I}} =
+	\bigg(\cfrac{\omega eA_{JJ}}{2c^2 \gamma z_0}\bigg)^2\bigg[
+	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C_n}) + }$\\
+	
+	$\mathnormal{\displaystyle\mathop{\sum\limits_{n, m =-2}^{2}}_{n \neq m}K^2_0\bigg(1 + n\cfrac{\Delta K}{K_0} + m\cfrac{\Delta K}{K_0}\bigg)
+	sinc^2(\hat{C_n})e^{i(n-m)\hat{C}_0 + (n^2 - m^2)\Delta \hat{C}}\bigg]}$
 \end{figure}
 \end{frame}
 
 \small
 \begin{frame}
-\frametitle{Благодарности}\label{t1}
+\frametitle{Расчёт станции 1-1. Тепловые нагрузки}\label{t1}
+\vspace{-10pt}
 \begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+	\raggedright{\includegraphics[width=1.3\linewidth]{pic/power_dens.pdf}}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
+		\vspace{-105pt}	
+		\tiny
+		\begin{table}[h]
+			\begin{tabular}{|c|c|c|c|}
+				\hline\hline
+				\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$      & $\mathnormal{1.36(2.29)}$   \\ \hline
+				\rule{0pt}{3ex}$\mathnormal{L, [m]}$ & $\mathnormal{2.3}$        \\ \hline
+				\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{18}$    \\ \hline
+				\rule{0pt}{3ex}Фазовая ошибка &$ \mathnormal{\leq 3^{\circ}}$    \\
+				\hline
+			\end{tabular}
+		\end{table}
+	\end{minipage}
+\end{figure}
+
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{Оптическая схема станции 1-1. Итерация без линз}\label{t1}
+\vspace{-20pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=0.8\linewidth]{pic/OptScheme.pdf}}
+	%Задача: расчёт тепловых нагрузок в первом приближении
+\end{figure}
+\vspace{-15pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=0.99\linewidth]{pic/full_spec.pdf}}
 \end{figure}
 \end{frame}
+
 
 \begin{frame}
 \begin{center}
 	\textbf{Благодарю за внимание}
 \end{center}
 \end{frame}
-
-\small
-\begin{frame}
-\frametitle{Дополнительные слайды}\label{t1}
-\begin{figure}[h]
-\end{figure}
-\end{frame}
-
-\small
-\begin{frame}
-\frametitle{Спектр ондулятора}\label{t1}
-\begin{figure}[h]
-\end{figure}
-\end{frame}
-
-\small
-\begin{frame}
-\frametitle{Угловое распределение}\label{t1}
-\begin{figure}[h]
-\end{figure}
-\end{frame}
-
-
 
 
 \end{document}
