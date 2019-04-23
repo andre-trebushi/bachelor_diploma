@@ -6,6 +6,7 @@
 \usepackage{amssymb,amsfonts,amsmath,mathtext}
 \usepackage{cite,enumerate,float,indentfirst}
 
+
 \usepackage{xmpmulti}
 \usepackage{gensymb} % для обозачения град
 %\usefonttheme{structurebold}     % Font theme: serif
@@ -45,10 +46,10 @@
 \title{\small{Разработка рентгенооптических трактов экспериментальных станций первой очереди проекта ЦКП «СКИФ»}}
 
 \author{\small{%
-		\emph{Докладчик:}~Требушинин Андрей\\%
-		\emph{Руководитель:}~к.ф.-м.н.~Я. В. Ракшун}\\%
+		\emph{Докладчик:}~Требушинин~А.Е.\\%
+		\emph{Руководитель:}~к.ф.-м.н. Ракшун~Я.В.}\\%
 	\vspace{30pt}%
-	Институт Ядерной Физики
+  	ИЯФ СО РАН
 	\vspace{-15pt}%
 }
 
@@ -62,31 +63,95 @@
 
 \maketitle
 
+\small
+\begin{frame}\label{r3}
+\frametitle{Карта ускорительных центров}
+\vspace{-20pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=1.0\linewidth]{pic/map.png}}	
+	\raggedright\tiny{Жёлтым цветом обозначены центры синхротронного излучения}
+\end{figure}
+\end{frame}
+
+\iffalse
+\small
+\begin{frame}
+\frametitle{Задачи, решаемые на синхротроне}\label{t1}
+\begin{center}
+	\begin{itemize}
+		\item Белковая кристаллография		 
+		\item Рентгеновская микроскопия, радиография, томография
+		
+	\end{itemize}
+\end{center}
+\end{frame}
+\fi
 
 \small
 \begin{frame}
-\frametitle{Цель работы}\label{t1}
+\frametitle{Цель}\label{t1}
 \begin{center}
-	Создание проекта экспериментальных стаций первой очереди проекта <<СКИФ>>
+	\large{Создание проекта экспериментальных стаций первой очереди ЦКП <<СКИФ>>}
+\end{center}
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{СКИФ \centering{\small{Сибирский Кольцевой Источник Фотонов}}}\label{t1}
+\vspace{-20pt}
+\begin{figure}[h]
+	\hfill
+	\center{}
+	\begin{minipage}[h]{0.99\linewidth}
+		\center{\includegraphics[width=0.99\linewidth]{pic/SKIF_1_2.png}}
+		%https://portal.slac.stanford.edu
+	\end{minipage}
+\end{figure}
+\vspace{-20pt}
+\begin{table}[h]
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		\hline
+		\rule{0pt}{3ex}   $\mathnormal{E, [GeV]}$ & $\mathnormal{I, [mA]}$ & $\mathnormal{C, [m]}$& $\mathnormal{\epsilon_x, [pm rad]}$ & $\mathnormal{\epsilon_y, [pm rad]}$ & $\mathnormal{N}$				\\ \hline
+		\rule{0pt}{3ex}   $\mathnormal{3}$		  & $\mathnormal{400}    $ & $\mathnormal{476}$   &$\mathnormal{90}$        		    & $\mathnormal{60}$  			      & $\mathnormal{30}$     \\ \hline
+	\end{tabular}
+\end{table}
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{Схема ЦКП <<СКИФ>>}\label{t1}
+\vspace{-10pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=0.95\linewidth]{pic/outline.pdf}}	
+\end{figure}
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{Задачи}\label{t1}
+\begin{center}
 \begin{itemize}
-	\item Моделирование \textbf{вставных устройств} \\(ондуляторы, вигглеры)
-  	\item Моделирование \textbf{оптических элементов} \\(апертуры, монохроматоры, фокусирующие зеркала)
+	\item Моделирование \textbf{вставных устройств} \\(ондуляторы)
+  	\item Оптимизация \textbf{оптических элементов} \\(апертуры, монохроматоры, фокусирующие зеркала)
   	\item Создание \textbf{среды для обмена информацией} по проектированию
-	\item Координация работы между исследовательскими группами разных институтов (ИЯФ, Институт катализа и д.р.)
+	\item Координация работы между исследовательскими группами разных институтов (ИЯФ СО РАН, ИК СО РАН, ИГиЛ СО РАН, ИГМ СО РАН)
 \end{itemize}
 \end{center}
 \end{frame}
+
+
 
 \small
 \begin{frame}
 \frametitle{План презентации}\label{t1}
 \begin{center}
 		\begin{itemize}
-		\item Необходимость источников СИ в России
-		\item Структура проектного офиса ЦКП <<СКИФ>>
-		\item Обзор источников излучения для станций
-		\item Оптические схемы станций
-		\item Обсуждение результатов и планов		 
+		\item Схема работы <<Оптической группы>> ЦКП СКИФ
+		\item Принципиальные основы кода для расчёта синхротронного излучения SRW
+		\item Обзор типовых ондуляторов для <<СКИФ>>
+		\item Расчёт оптической схемы станции 1-1
+		\item Расчёт ондулятора с корректирующими катушками для станции 1-4 
 	\end{itemize}
 \end{center}
 \end{frame}
@@ -115,49 +180,11 @@
 \fi
 
 \small
-\begin{frame}\label{r3}
-\frametitle{Карта ускорительных центров}
-\begin{figure}[h]
-		\center{\includegraphics[width=1.0\linewidth]{pic/map.png}}	
-		\raggedright\tiny{Жёлтым цветом обозначены центры синхротронного излучения}
-\end{figure}
-\end{frame}
-
-\small
-\begin{frame}
-\frametitle{СКИФ \centering{\small{Сибирский Кольцевой Источник Фотонов}}}\label{t1}
-\begin{figure}[h]
-	\center{}
-	\begin{minipage}[h]{0.75\linewidth}
-		\center{\includegraphics[width=0.99\linewidth]{pic/SKIF_2_2.png}}
-		%http://www.irtnanoelec.fr
-	\end{minipage}
-	
-	\hfill
-	\center{}
-	\begin{minipage}[h]{0.75\linewidth}
-		\center{\includegraphics[width=0.99\linewidth]{pic/SKIF_1_2.png}}
-		%https://portal.slac.stanford.edu
-	\end{minipage}
-\end{figure}
-\end{frame}
-
-\small
-\begin{frame}
-\frametitle{Структура синхротрона}\label{t1}
-\vspace{-10pt}
-\begin{figure}[h]
-	\center{\includegraphics[width=0.95\linewidth]{pic/outline.pdf}}	
-\end{figure}
-\end{frame}
-
-
-\small
 \begin{frame}
 \frametitle{Оптическая группа ЦКП <<СКИФ>>}\label{t1}
 \vspace{-20pt}
 \begin{figure}[h]
-	\center{\includegraphics[width=0.8\linewidth]{pic/scheme.pdf}}
+	\center{\includegraphics[width=0.8\linewidth]{pic/optgr.pdf}}
 \end{figure}
 \tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
 \end{frame}
@@ -172,7 +199,7 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \end{itemize}
 	\hspace{25pt}$\mathnormal{\vec{\widetilde{E}}_{\bot}(\vec{r}_0, \omega) = 
 	\cfrac{i\omega e}{c}\displaystyle\int\limits_{-\infty}^{\infty} dt'\bigg[\cfrac{\vec{\beta} - \vec{n}}{|\vec{r}_0 - \vec{r'}_0(t')|} - \cfrac{ic}{\omega}\cfrac{\vec{n}}{|\vec{r}_0 - \vec{r'}_0(t')|^2}\bigg]\times}$\\
-	\hspace{195pt}$\mathnormal{\exp[i\bigg(t' + \cfrac{|\vec{r}_0 - \vec{r'}_0(t')|}{c}\bigg)]}$
+	\hspace{195pt}$\mathnormal{\exp\bigg[i\bigg(t' + \cfrac{|\vec{r}_0 - \vec{r'}_0(t')|}{c}\bigg)\bigg]}$
 
 \begin{itemize}	
 	\item Фурье оптика:\\
@@ -219,10 +246,10 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 		\begin{tabular}{|c|c|c|c|}
 			\hline\hline
 			\rule{0pt}{3ex}$\mathnormal{B, [T]}$      & $\mathnormal{0.7 - 1.5}$   \\ \hline
-			\rule{0pt}{3ex}$\mathnormal{L, [m]}$ & до $\mathnormal{3}$        \\ \hline
+			\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  &  $\mathnormal{3}$        \\ \hline
 			\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{15 - 20}$     \\ \hline
-			\rule{0pt}{3ex}$\mathnormal{N}$         & $\mathnormal{\geq 120}$ \\ \hline
-			\rule{0pt}{3ex}Фазовая ошибка &$\mathnormal{\leq 3^{\circ}}$  \\
+			\rule{0pt}{3ex}$\mathnormal{N}$           & $\mathnormal{\geq 120}$ \\ \hline
+			\rule{0pt}{3ex}Фазовая ошибка &$\mathnormal{\leq 2^{\circ}}$  \\
 			\hline
 		\end{tabular}
 	\end{table}
@@ -241,11 +268,72 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 		\hline
 	\end{tabular}
 \end{table}
-\begin{figure}[h]
-
-\end{figure}
 \end{frame}
 
+\small
+\begin{frame}
+\frametitle{Расчёт станции 1-1. Тепловые нагрузки}\label{t1}
+\vspace{-10pt}
+\begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\raggedright{\includegraphics[width=1.1\linewidth]{pic/power_dens.pdf}}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
+		\raggedleft{\includegraphics[width=0.9\linewidth]{pic/AA_harm.png}}
+		\begin{minipage}[h]{0.99\linewidth}
+			%\vspace{-90pt}	
+			\tiny
+			\vspace{10pt}	
+			\begin{table}[h]
+				\begin{tabular}{|c|c|c|c|c|}
+					\hline\hline
+					\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.36(2.29)}$   \\ \hline
+					\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2.3}$          \\ \hline
+					\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{18}$    		\\ \hline
+					\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
+					\rule{0pt}{3ex}Гармоники	              & $\mathnormal{11, 13, 17, 23}$  \\
+					\hline
+				\end{tabular}
+			\end{table}
+		\end{minipage}
+	\end{minipage}
+\end{figure}
+
+%\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
+\end{frame}
+
+\iffalse
+	\begin{minipage}[h]{0.24\linewidth}
+	%\vspace{-90pt}	
+	\tiny
+	\begin{table}[h]
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline\hline
+			\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.36(2.29)}$   \\ \hline
+			\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2.3}$          \\ \hline
+			\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{18}$    		\\ \hline
+			\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
+			\rule{0pt}{3ex}Гармоники	              & $\mathnormal{11, 13, 17, 23}$  \\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{minipage}
+\fi
+
+\small
+\begin{frame}
+\frametitle{Оптическая схема станции 1-1. Итерация без линз}\label{t1}
+\vspace{-20pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=0.8\linewidth]{pic/OptScheme.pdf}}
+	%Задача: расчёт тепловых нагрузок в первом приближении
+\end{figure}
+\vspace{-15pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=0.99\linewidth]{pic/full_spec.pdf}}
+\end{figure}
+\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
+\end{frame}
 
 \small
 \begin{frame}
@@ -261,17 +349,61 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 		\tiny{$\mathnormal{\hat{C} = CL_u = 2\pi N_u\cfrac{\Delta\omega}{\omega_r}}$}
 	\end{minipage}	
 	\begin{minipage}[h]{0.49\linewidth}
-	    \begin{itemize}
-		\item {Широкий спектр для Quick-XAFS  спектроскопии $\mathnormal{\approx 1}$ $\mathnormal{keV}$}
-		\item {$\mathnormal{\cfrac{\Delta \omega}{\omega_{ph}} = \cfrac{\Delta \lambda}{\lambda_{ph}} \sim \cfrac{1}{nL_u}}$}
+		\begin{itemize}
+			\item {Широкий спектр для Quick-XAFS  спектроскопии $\mathnormal{\approx 1}$ $\mathnormal{keV}$}
+			\item {$\mathnormal{\cfrac{\Delta \omega}{\omega_{ph}} = \cfrac{\Delta \lambda}{\lambda_{ph}} \sim \cfrac{1}{nL_u}}$}
 		\end{itemize}
 	\end{minipage}
+\end{figure}
+
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{Оценки спектра}\label{t1}
+\vspace{-5pt}
+\begin{figure}[h]
+\begin{minipage}[h]{0.49\linewidth}
+	\center{Предсказание}
+	\vspace{-10pt}
+	\center{\includegraphics[width=0.99\linewidth]{pic/spec_sinc.pdf}}
+\end{minipage}	
+
+\end{figure}
+\vspace{-15pt}
+\begin{figure}[h]
+$\mathnormal{{\widetilde{I}} =
+	\bigg(\cfrac{\omega eA_{JJ}}{2c^2 \gamma z_0}\bigg)^2\bigg[
+	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C_n})}\bigg]$\\
+
 \end{figure}
 \end{frame}
 
 \small
 \begin{frame}
-\frametitle{Оценки. Интерференция в спектре}\label{t1}
+\frametitle{Моделирование SRW}\label{t1}
+\vspace{-36pt}
+\begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\center{Предсказание}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/spec_sinc.pdf}}
+	\end{minipage}	
+	\begin{minipage}[h]{0.49\linewidth}
+		\center{Симуляция SRW}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec.pdf}}
+	\end{minipage}
+\end{figure}
+\vspace{-30pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=0.7\linewidth]{pic/und.pdf}}
+\end{figure}
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{Интерференция в спектре}\label{t1}
 \vspace{-5pt}
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
@@ -280,68 +412,40 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 		\center{\includegraphics[width=0.99\linewidth]{pic/spec_from_sec_und.pdf}}
 	\end{minipage}	
 	\begin{minipage}[h]{0.49\linewidth}
-		\center{Симуляция}
+		\center{Симуляция SRW}
 		\vspace{-10pt}
 		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec.pdf}}
 	\end{minipage}
 \end{figure}
-\vspace{-15pt}
-\begin{figure}[h]
-	$\mathnormal{{\widetilde{I}} =
-	\bigg(\cfrac{\omega eA_{JJ}}{2c^2 \gamma z_0}\bigg)^2\bigg[
-	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C_n}) + }$\\
-	
-	$\mathnormal{\displaystyle\mathop{\sum\limits_{n, m =-2}^{2}}_{n \neq m}K^2_0\bigg(1 + n\cfrac{\Delta K}{K_0} + m\cfrac{\Delta K}{K_0}\bigg)
-	sinc^2(\hat{C_n})e^{i(n-m)\hat{C}_0 + (n^2 - m^2)\Delta \hat{C}}\bigg]}$
-\end{figure}
-\end{frame}
-
-\small
-\begin{frame}
-\frametitle{Расчёт станции 1-1. Тепловые нагрузки}\label{t1}
-\vspace{-10pt}
-\begin{figure}[h]
-	\begin{minipage}[h]{0.49\linewidth}
-	\raggedright{\includegraphics[width=1.3\linewidth]{pic/power_dens.pdf}}
-	\end{minipage}
-	\begin{minipage}[h]{0.49\linewidth}
-		\vspace{-105pt}	
-		\tiny
-		\begin{table}[h]
-			\begin{tabular}{|c|c|c|c|}
-				\hline\hline
-				\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$      & $\mathnormal{1.36(2.29)}$   \\ \hline
-				\rule{0pt}{3ex}$\mathnormal{L, [m]}$ & $\mathnormal{2.3}$        \\ \hline
-				\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{18}$    \\ \hline
-				\rule{0pt}{3ex}Фазовая ошибка &$ \mathnormal{\leq 3^{\circ}}$    \\
-				\hline
-			\end{tabular}
-		\end{table}
-	\end{minipage}
-\end{figure}
-
-\end{frame}
-
-\small
-\begin{frame}
-\frametitle{Оптическая схема станции 1-1. Итерация без линз}\label{t1}
 \vspace{-20pt}
 \begin{figure}[h]
-	\center{\includegraphics[width=0.8\linewidth]{pic/OptScheme.pdf}}
-	%Задача: расчёт тепловых нагрузок в первом приближении
-\end{figure}
-\vspace{-15pt}
-\begin{figure}[h]
-	\center{\includegraphics[width=0.99\linewidth]{pic/full_spec.pdf}}
+	$\mathnormal{{\widetilde{I}} =
+		\bigg(\cfrac{\omega eA_{JJ}}{2c^2 \gamma z_0}\bigg)^2\bigg[
+		\textcolor{gray}{\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2\sinc^2(\hat{C_n}) + }}$\\
+	
+	$\mathnormal{\displaystyle\mathop{\sum\limits_{n, m =-2}^{2}}_{n \neq m}K^2_0\bigg(1 + n\cfrac{\Delta K}{K_0} + m\cfrac{\Delta K}{K_0}\bigg)
+	\textcolor{violet}{\sinc^2(\hat{C_n})e^{i(n-m)\hat{C}_0 + (n^2 - m^2)\Delta \hat{C}}}\bigg]}$
 \end{figure}
 \end{frame}
 
+\small
+\begin{frame}
+\frametitle{Планы}\label{t1}
+\begin{center}
+	\begin{itemize}
+		\item Детальное моделирование оптических схем
+		\item Принятие решения по концепции ондулятора станции 1-4	
+	\end{itemize}
+\end{center}
+{\textit{\href{https://github.com/TrebAndrew/thesis_andrei.git}{Здесь} можно следить за работой оптической группы}}\\
+{\textit{\href{https://github.com/TrebAndrew/diploma.git}{Здесь} за текстом дипломной работы}}\\
+{\textit{Моя почта: $trebandrej@gmail.com$}}\\
+\end{frame}
 
 \begin{frame}
 \begin{center}
 	\textbf{Благодарю за внимание}
 \end{center}
 \end{frame}
-
 
 \end{document}
