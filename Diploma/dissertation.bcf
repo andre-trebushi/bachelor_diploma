@@ -3184,5 +3184,28 @@
     <bcf:datasource type="file" datatype="bibtex">../biblio/authorconferences.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">geloni2005paraxial</bcf:citekey>
+    <bcf:citekey order="2">geloni2007fourier</bcf:citekey>
+    <bcf:citekey order="3">geloni2015brightness</bcf:citekey>
+    <bcf:citekey order="4">geloni2006fourier</bcf:citekey>
+    <bcf:citekey order="5">chubar1998proceedings</bcf:citekey>
+    <bcf:citekey order="6">serkez2013grating</bcf:citekey>
+    <bcf:citekey order="7">serkez2015design</bcf:citekey>
+    <bcf:citekey order="8">goodman2015statistical</bcf:citekey>
+    <bcf:citekey order="9">goodman2005introduction</bcf:citekey>
   </bcf:section>
+  <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
+  <bcf:sorting>
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sorting>
+  </bcf:sortlist>
+  <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
+  <bcf:sorting>
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sorting>
+  </bcf:sortlist>
 </bcf:controlfile>

@@ -1,0 +1,71 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{geloni2005paraxial}
+\selectlanguageifdefined{english}
+Paraxial Green's functions in synchrotron radiation theory~/ Gianluca~Geloni,
+  Evgeni~Saldin, Evgeni~Schneidmiller, Mikhail~Yurkov~// \BibEmph{arXiv
+  preprint physics/0502120}. ---
+\newblock 2005.
+
+\bibitem{geloni2007fourier}
+\selectlanguageifdefined{english}
+Fourier treatment of near-field synchrotron radiation theory~/ Gianluca~Geloni,
+  Evgeni~Saldin, Evgeni~Schneidmiller, Mikhail~Yurkov~// \BibEmph{Optics
+  communications}. ---
+\newblock 2007. ---
+\newblock Vol. 276, no.~1. ---
+\newblock Pp.~167--179.
+
+\bibitem{geloni2015brightness}
+\selectlanguageifdefined{english}
+\BibEmph{Geloni~Gianluca, Kocharyan~Vitali, Saldin~Evgeni}. Brightness of
+  synchrotron radiation from undulators and bending magnets~// \BibEmph{Journal
+  of synchrotron radiation}. ---
+\newblock 2015. ---
+\newblock Vol.~22, no.~2. ---
+\newblock Pp.~288--316.
+
+\bibitem{geloni2006fourier}
+\selectlanguageifdefined{english}
+Fourier optics treatment of classical relativistic electrodynamics~/
+  Gianluca~Geloni, Evgeni~Saldin, Evgeni~Schneidmiller, Mikhail~Yurkov~//
+  \BibEmph{arXiv preprint physics/0608145}. ---
+\newblock 2006.
+
+\bibitem{chubar1998proceedings}
+\selectlanguageifdefined{english}
+\BibEmph{Chubar~O, Elleaume~P}. Proceedings of the 6th European Particle
+  Accelerator Conference, Stockholm, 1998. ---
+\newblock 1998.
+
+\bibitem{serkez2013grating}
+\selectlanguageifdefined{english}
+Grating monochromator for soft X-ray self-seeding the European XFEL~/
+  Svitozar~Serkez, Gianluca~Geloni, Vitali~Kocharyan, Evgeni~Saldin~//
+  \BibEmph{arXiv preprint arXiv:1303.1392}. ---
+\newblock 2013.
+
+\bibitem{serkez2015design}
+\selectlanguageifdefined{english}
+\BibEmph{Serkez~Svitozar}. Design and Optimization of the Grating Monochromator
+  for Soft X-Ray Self-Seeding FELs. ---
+\newblock 2015.
+
+\bibitem{goodman2015statistical}
+\selectlanguageifdefined{english}
+\BibEmph{Goodman~Joseph~W}. Statistical optics. ---
+\newblock John Wiley \& Sons, 2015.
+
+\bibitem{goodman2005introduction}
+\selectlanguageifdefined{english}
+\BibEmph{Goodman~Joseph~W}. Introduction to Fourier optics. ---
+\newblock Roberts and Company Publishers, 2005.
+
+\end{thebibliography}
