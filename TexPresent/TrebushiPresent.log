@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  10 MAY 2019 10:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  13 MAY 2019 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1908,6 +1908,27 @@ LaTeX Warning: Label `t1' multiply defined.
 
 LaTeX Warning: Label `t1' multiply defined.
 
+
+LaTeX Warning: Label `t1' multiply defined.
+
+
+LaTeX Warning: Label `t1' multiply defined.
+
+
+LaTeX Warning: Label `t1' multiply defined.
+
+
+LaTeX Warning: Label `t1' multiply defined.
+
+
+LaTeX Warning: Label `t1' multiply defined.
+
+
+LaTeX Warning: Label `t1' multiply defined.
+
+
+LaTeX Warning: Label `t1' multiply defined.
+
 )
 \openout1 = `TrebushiPresent.aux'.
 
@@ -2260,66 +2281,116 @@ r (name{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.303 \end{frame}
-                  <pic/power_dens.pdf, id=402, 867.24pt x 867.24pt>
-File: pic/power_dens.pdf Graphic file (type pdf)
+                  <pic/power_dens_1-1.pdf, id=402, 867.24pt x 867.24pt>
+File: pic/power_dens_1-1.pdf Graphic file (type pdf)
 
-<use pic/power_dens.pdf>
-Package pdftex.def Info: pic/power_dens.pdf used on input line 303.
+<use pic/power_dens_1-1.pdf>
+Package pdftex.def Info: pic/power_dens_1-1.pdf used on input line 303.
 (pdftex.def)             Requested size: 181.51329pt x 181.50383pt.
 
 Overfull \hbox (16.50212pt too wide) in paragraph at lines 303--303
 [][]  
  []
 
-<pic/AA_harm.png, id=403, 638.19072pt x 414.96968pt>
-File: pic/AA_harm.png Graphic file (type png)
- <use pic/AA_harm.png>
-Package pdftex.def Info: pic/AA_harm.png used on input line 303.
-(pdftex.def)             Requested size: 148.50903pt x 96.56177pt.
+<pic/A_K.pdf, id=403, 578.16pt x 361.35pt>
+File: pic/A_K.pdf Graphic file (type pdf)
+ <use pic/A_K.pdf>
+Package pdftex.def Info: pic/A_K.pdf used on input line 303.
+(pdftex.def)             Requested size: 148.50903pt x 92.81847pt.
+ [12
 
-[12
+ <./pic/power_dens_1-1.pdf> <./pic/A_K.pdf
 
- <./pic/power_dens.pdf> <./pic/AA_harm.png>]pdfTeX warning (ext4): destination 
-with the same identifier (name{t1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.336 \end{frame}
-                  <pic/OptScheme.pdf, id=498, 1251.92131pt x 426.79132pt>
-File: pic/OptScheme.pdf Graphic file (type pdf)
-
-<use pic/OptScheme.pdf>
-Package pdftex.def Info: pic/OptScheme.pdf used on input line 336.
-(pdftex.def)             Requested size: 269.404pt x 91.843pt.
- <pic/full_spec.pdf, id=499, 1084.05pt x 325.215pt>
-File: pic/full_spec.pdf Graphic file (type pdf)
-
-<use pic/full_spec.pdf>
-Package pdftex.def Info: pic/full_spec.pdf used on input line 336.
-(pdftex.def)             Requested size: 333.38805pt x 100.01666pt.
- [13
-
- <./pic/OptScheme.pdf> <./pic/full_spec.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./pic/full_spec.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/A_K.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
 >]pdfTeX warning (ext4): destination with the same identifier (name{t1}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.359 \end{frame}
-                  <pic/und.pdf, id=628, 722.7pt x 154.5775pt>
+l.336 \end{frame}
+                  <pic/OptScheme_1-1.pdf, id=559, 1251.92131pt x 426.79132pt>
+File: pic/OptScheme_1-1.pdf Graphic file (type pdf)
+
+<use pic/OptScheme_1-1.pdf>
+Package pdftex.def Info: pic/OptScheme_1-1.pdf used on input line 336.
+(pdftex.def)             Requested size: 269.404pt x 91.843pt.
+
+<pic/full_spec_1-1.pdf, id=560, 1084.05pt x 325.215pt>
+File: pic/full_spec_1-1.pdf Graphic file (type pdf)
+
+<use pic/full_spec_1-1.pdf>
+Package pdftex.def Info: pic/full_spec_1-1.pdf used on input line 336.
+(pdftex.def)             Requested size: 333.38805pt x 100.01666pt.
+ [13
+
+ <./pic/OptScheme_1-1.pdf> <./pic/full_spec_1-1.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/full_spec_1-1.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]pdfTeX warning (ext4): destination with the same identifier (name{t1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.368 \end{frame}
+                  <pic/power_dens_1-2.pdf, id=689, 867.24pt x 867.24pt>
+File: pic/power_dens_1-2.pdf Graphic file (type pdf)
+
+<use pic/power_dens_1-2.pdf>
+Package pdftex.def Info: pic/power_dens_1-2.pdf used on input line 368.
+(pdftex.def)             Requested size: 181.51329pt x 181.50383pt.
+
+Overfull \hbox (16.50212pt too wide) in paragraph at lines 368--368
+[][]  
+ []
+
+File: pic/A_K.pdf Graphic file (type pdf)
+<use pic/A_K.pdf>
+Package pdftex.def Info: pic/A_K.pdf used on input line 368.
+(pdftex.def)             Requested size: 148.50903pt x 92.81847pt.
+ [14
+
+ <./pic/power_dens_1-2.pdf>]pdfTeX warning (ext4): destination with the same id
+entifier (name{t1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.401 \end{frame}
+                  <pic/OptScheme_1-2.pdf, id=781, 1251.92131pt x 426.79132pt>
+File: pic/OptScheme_1-2.pdf Graphic file (type pdf)
+
+<use pic/OptScheme_1-2.pdf>
+Package pdftex.def Info: pic/OptScheme_1-2.pdf used on input line 401.
+(pdftex.def)             Requested size: 269.404pt x 91.843pt.
+
+<pic/full_spec_1-2.pdf, id=782, 1084.05pt x 325.215pt>
+File: pic/full_spec_1-2.pdf Graphic file (type pdf)
+
+<use pic/full_spec_1-2.pdf>
+Package pdftex.def Info: pic/full_spec_1-2.pdf used on input line 401.
+(pdftex.def)             Requested size: 333.38805pt x 100.01666pt.
+ [15
+
+ <./pic/OptScheme_1-2.pdf> <./pic/full_spec_1-2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/full_spec_1-2.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]pdfTeX warning (ext4): destination with the same identifier (name{t1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.425 \end{frame}
+                  <pic/und.pdf, id=910, 722.7pt x 154.5775pt>
 File: pic/und.pdf Graphic file (type pdf)
 
 <use pic/und.pdf>
-Package pdftex.def Info: pic/und.pdf used on input line 359.
+Package pdftex.def Info: pic/und.pdf used on input line 425.
 (pdftex.def)             Requested size: 333.38805pt x 71.30698pt.
- <pic/spec_C.pdf, id=629, 433.62pt x 325.215pt>
+ <pic/spec_C.pdf, id=911, 433.62pt x 325.215pt>
 File: pic/spec_C.pdf Graphic file (type pdf)
 
 <use pic/spec_C.pdf>
-Package pdftex.def Info: pic/spec_C.pdf used on input line 359.
+Package pdftex.def Info: pic/spec_C.pdf used on input line 425.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
- [14
+ [16
 
  <./pic/und.pdf> <./pic/spec_C.pdf
 
@@ -2329,65 +2400,191 @@ ple pdfs with page group included in a single page
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.380 \end{frame}
-                  <pic/spec_sinc.pdf, id=689, 375.804pt x 281.85298pt>
+l.446 \end{frame}
+                  <pic/spec_sinc.pdf, id=971, 375.804pt x 281.85298pt>
 File: pic/spec_sinc.pdf Graphic file (type pdf)
 
 <use pic/spec_sinc.pdf>
-Package pdftex.def Info: pic/spec_sinc.pdf used on input line 380.
+Package pdftex.def Info: pic/spec_sinc.pdf used on input line 446.
 (pdftex.def)             Requested size: 163.36195pt x 122.52335pt.
- [15
+ [17
 
  <./pic/spec_sinc.pdf>]pdfTeX warning (ext4): destination with the same identif
 ier (name{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.402 \end{frame}
+l.468 \end{frame}
                  
 File: pic/spec_sinc.pdf Graphic file (type pdf)
  <use pic/spec_sinc.pdf>
-Package pdftex.def Info: pic/spec_sinc.pdf used on input line 402.
+Package pdftex.def Info: pic/spec_sinc.pdf used on input line 468.
 (pdftex.def)             Requested size: 163.36195pt x 122.52335pt.
 
-<pic/sim_und_spec.pdf, id=738, 433.62pt x 325.215pt>
+<pic/sim_und_spec.pdf, id=1021, 433.62pt x 325.215pt>
 File: pic/sim_und_spec.pdf Graphic file (type pdf)
 
 <use pic/sim_und_spec.pdf>
-Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 402.
+Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 468.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
 File: pic/und.pdf Graphic file (type pdf)
  <use pic/und.pdf>
-Package pdftex.def Info: pic/und.pdf used on input line 402.
+Package pdftex.def Info: pic/und.pdf used on input line 468.
 (pdftex.def)             Requested size: 235.72658pt x 50.4187pt.
- [16
+ [18
 
  <./pic/sim_und_spec.pdf>]pdfTeX warning (ext4): destination with the same iden
 tifier (name{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.429 \end{frame}
-                  <pic/spec_from_sec_und.pdf, id=810, 375.804pt x 281.85298pt>
+l.495 \end{frame}
+                 
+<pic/spec_from_sec_und.pdf, id=1092, 375.804pt x 281.85298pt>
 File: pic/spec_from_sec_und.pdf Graphic file (type pdf)
 
 <use pic/spec_from_sec_und.pdf>
-Package pdftex.def Info: pic/spec_from_sec_und.pdf used on input line 429.
+Package pdftex.def Info: pic/spec_from_sec_und.pdf used on input line 495.
 (pdftex.def)             Requested size: 163.36195pt x 122.52335pt.
 File: pic/sim_und_spec.pdf Graphic file (type pdf)
  <use pic/sim_und_spec.pdf>
-Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 429.
+Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 495.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
- [17
+ [19
 
  <./pic/spec_from_sec_und.pdf>]pdfTeX warning (ext4): destination with the same
  identifier (name{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.443 \end{frame}
-                  [18
+l.509 \end{frame}
+                  [20
 
-] [19
+] [21
 
-]
+] [22
+
+]pdfTeX warning (ext4): destination with the same identifier (name{t1}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.540 \end{frame}
+                  <pic/angleC_neg.pdf, id=1224, 435.71346pt x 312.3168pt>
+File: pic/angleC_neg.pdf Graphic file (type pdf)
+
+<use pic/angleC_neg.pdf>
+Package pdftex.def Info: pic/angleC_neg.pdf used on input line 540.
+(pdftex.def)             Requested size: 163.36195pt x 117.09468pt.
+
+<pic/angleC_pos.pdf, id=1225, 426.3773pt x 312.3168pt>
+File: pic/angleC_pos.pdf Graphic file (type pdf)
+
+<use pic/angleC_pos.pdf>
+Package pdftex.def Info: pic/angleC_pos.pdf used on input line 540.
+(pdftex.def)             Requested size: 163.36195pt x 119.65855pt.
+ [23
+
+ <./pic/angleC_neg.pdf> <./pic/angleC_pos.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/angleC_pos.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]pdfTeX warning (ext4): destination with the same identifier (name{t1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.551 \end{frame}
+                  <pic/spec_integ_ang.pdf, id=1305, 578.16pt x 325.215pt>
+File: pic/spec_integ_ang.pdf Graphic file (type pdf)
+
+<use pic/spec_integ_ang.pdf>
+Package pdftex.def Info: pic/spec_integ_ang.pdf used on input line 551.
+(pdftex.def)             Requested size: 330.05598pt x 185.65236pt.
+ [24
+
+ <./pic/spec_integ_ang.pdf>]pdfTeX warning (ext4): destination with the same id
+entifier (name{t1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.570 \end{frame}
+                 
+<pic/spec_integ_emittance.pdf, id=1356, 433.62pt x 325.215pt>
+File: pic/spec_integ_emittance.pdf Graphic file (type pdf)
+
+<use pic/spec_integ_emittance.pdf>
+Package pdftex.def Info: pic/spec_integ_emittance.pdf used on input line 570.
+(pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
+
+<pic/angle_integ_emittance.pdf, id=1357, 426.3773pt x 312.73212pt>
+File: pic/angle_integ_emittance.pdf Graphic file (type pdf)
+
+<use pic/angle_integ_emittance.pdf>
+Package pdftex.def Info: pic/angle_integ_emittance.pdf used on input line 570.
+(pdftex.def)             Requested size: 163.36195pt x 119.81767pt.
+ [25
+
+ <./pic/spec_integ_emittance.pdf> <./pic/angle_integ_emittance.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/angle_integ_emittance.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]pdfTeX warning (ext4): destination with the same identifier (name{t1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.592 \end{frame}
+                  <pic/spec_und_1-1.pdf, id=1432, 462.52802pt x 346.89601pt>
+File: pic/spec_und_1-1.pdf Graphic file (type pdf)
+
+<use pic/spec_und_1-1.pdf>
+Package pdftex.def Info: pic/spec_und_1-1.pdf used on input line 592.
+(pdftex.def)             Requested size: 148.50903pt x 111.3795pt.
+
+<pic/spec_und_1-2.pdf, id=1433, 462.52802pt x 346.89601pt>
+File: pic/spec_und_1-2.pdf Graphic file (type pdf)
+
+<use pic/spec_und_1-2.pdf>
+Package pdftex.def Info: pic/spec_und_1-2.pdf used on input line 592.
+(pdftex.def)             Requested size: 148.50903pt x 111.3795pt.
+File: pic/A_K.pdf Graphic file (type pdf)
+ <use pic/A_K.pdf>
+Package pdftex.def Info: pic/A_K.pdf used on input line 592.
+(pdftex.def)             Requested size: 181.51329pt x 113.4454pt.
+
+Overfull \hbox (6.50212pt too wide) in paragraph at lines 592--592
+[] [] 
+ []
+
+
+Overfull \vbox (13.11665pt too high) detected at line 592
+ []
+
+[26
+
+ <./pic/spec_und_1-1.pdf> <./pic/spec_und_1-2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/spec_und_1-2.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]pdfTeX warning (ext4): destination with the same identifier (name{t1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.613 \end{frame}
+                  <pic/emmiter_traj.pdf, id=1580, 433.62pt x 289.08pt>
+File: pic/emmiter_traj.pdf Graphic file (type pdf)
+
+<use pic/emmiter_traj.pdf>
+Package pdftex.def Info: pic/emmiter_traj.pdf used on input line 613.
+(pdftex.def)             Requested size: 163.36195pt x 108.90758pt.
+
+<pic/emmiter_traj_ang.pdf, id=1581, 433.62pt x 289.08pt>
+File: pic/emmiter_traj_ang.pdf Graphic file (type pdf)
+
+<use pic/emmiter_traj_ang.pdf>
+Package pdftex.def Info: pic/emmiter_traj_ang.pdf used on input line 613.
+(pdftex.def)             Requested size: 163.36195pt x 108.90758pt.
+ [27
+
+ <./pic/emmiter_traj.pdf> <./pic/emmiter_traj_ang.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/emmiter_traj_ang.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
 \tf@nav=\write6
 \openout6 = `TrebushiPresent.nav'.
 
@@ -2397,11 +2594,11 @@ l.443 \end{frame}
 \tf@snm=\write8
 \openout8 = `TrebushiPresent.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 451.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 451.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
  (./TrebushiPresent.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 451.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 451.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
 Package rerunfilecheck Info: File `TrebushiPresent.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2412,38 +2609,39 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 451.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 615.
  ) 
 Here is how much of TeX's memory you used:
- 18597 strings out of 493029
- 344105 string characters out of 6136233
+ 18705 strings out of 493029
+ 346208 string characters out of 6136233
  425857 words of memory out of 5000000
- 21593 multiletter control sequences out of 15000+600000
+ 21673 multiletter control sequences out of 15000+600000
  19770 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,57p,420b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfsi0600.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfsi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfss1728.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfss2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pf
-b>
-Output written on TrebushiPresent.pdf (19 pages, 9453766 bytes).
+mf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+si12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfsi0600.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfsi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfss1728.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfss2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb>
+Output written on TrebushiPresent.pdf (27 pages, 9972947 bytes).
 PDF statistics:
- 987 PDF objects out of 1000 (max. 8388607)
- 687 compressed objects within 7 object streams
- 41 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1773 PDF objects out of 2073 (max. 8388607)
+ 1132 compressed objects within 12 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 

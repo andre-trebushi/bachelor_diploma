@@ -3193,6 +3193,9 @@
     <bcf:citekey order="7">serkez2015design</bcf:citekey>
     <bcf:citekey order="8">goodman2015statistical</bcf:citekey>
     <bcf:citekey order="9">goodman2005introduction</bcf:citekey>
+    <bcf:citekey order="10">my_github</bcf:citekey>
+    <bcf:citekey order="11">als2011elements</bcf:citekey>
+    <bcf:citekey order="12">authier2006dynamical</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
   <bcf:sorting>
