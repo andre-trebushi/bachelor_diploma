@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  14 MAY 2019 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  16 MAY 2019 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2689,6 +2689,15 @@ LaTeX Warning: Label `fig:spec' multiply defined.
 
 LaTeX Warning: Label `table:und1-1' multiply defined.
 
+
+LaTeX Warning: Label `fig:section_und_SRW' multiply defined.
+
+
+LaTeX Warning: Label `fig:section_und_SRW' multiply defined.
+
+
+LaTeX Warning: Label `fig:section_und_SRW' multiply defined.
+
 )
 \openout1 = `dissertation.aux'.
 
@@ -2804,7 +2813,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@prelastfoot=\box95
 \c@FBLTpage=\count309
 )
-(./names.tex) <NSU/trebushi_title.pdf, id=124, 597.23125pt x 845.1575pt>
+(./names.tex) <NSU/trebushi_title.pdf, id=144, 597.23125pt x 845.1575pt>
 File: NSU/trebushi_title.pdf Graphic file (type pdf)
 
 <use NSU/trebushi_title.pdf>
@@ -2815,7 +2824,7 @@ File: NSU/trebushi_title.pdf Graphic file (type pdf)
 Package pdftex.def Info: NSU/trebushi_title.pdf used on input line 24.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<NSU/trebushi_title.pdf, id=127, page=1, 597.23125pt x 845.1575pt>
+<NSU/trebushi_title.pdf, id=147, page=1, 597.23125pt x 845.1575pt>
 File: NSU/trebushi_title.pdf Graphic file (type pdf)
 
 <use NSU/trebushi_title.pdf, page 1>
@@ -2862,20 +2871,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
  [2.2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.60287pt too wide) detected at line 28
+Overfull \hbox (1.60287pt too wide) detected at line 33
 \T2A/cmr/m/n/14.4 Á.1  
  []
 
 
-Overfull \hbox (1.60287pt too wide) detected at line 29
+Overfull \hbox (1.60287pt too wide) detected at line 34
 \T2A/cmr/m/n/14.4 Á.2  
  []
 
@@ -3043,19 +3052,19 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 265.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 265.
- [12.12] <pic/angleC_neg.pdf, id=291, 435.71346pt x 312.3168pt>
+ [12.12] <pic/angleC_neg.pdf, id=317, 435.71346pt x 312.3168pt>
 File: pic/angleC_neg.pdf Graphic file (type pdf)
 
 <use pic/angleC_neg.pdf>
 Package pdftex.def Info: pic/angleC_neg.pdf used on input line 279.
 (pdftex.def)             Requested size: 223.07211pt x 159.89899pt.
- <pic/angleC_pos.pdf, id=292, 426.3773pt x 312.3168pt>
+ <pic/angleC_pos.pdf, id=318, 426.3773pt x 312.3168pt>
 File: pic/angleC_pos.pdf Graphic file (type pdf)
 
 <use pic/angleC_pos.pdf>
 Package pdftex.def Info: pic/angleC_pos.pdf used on input line 285.
 (pdftex.def)             Requested size: 223.07211pt x 163.39691pt.
- <pic/traj.pdf, id=297, 1011.78pt x 505.89pt>
+ <pic/traj.pdf, id=323, 1011.78pt x 505.89pt>
 File: pic/traj.pdf Graphic file (type pdf)
 
 <use pic/traj.pdf>
@@ -3073,7 +3082,7 @@ Package babel Info: Redefining russian shorthand "~
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pic/angleC_pos.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <pic/spec_integ_ang.pdf, id=359, 578.16pt x 325.215pt>
+>] <pic/spec_integ_ang.pdf, id=384, 578.16pt x 325.215pt>
 File: pic/spec_integ_ang.pdf Graphic file (type pdf)
 
 <use pic/spec_integ_ang.pdf>
@@ -3105,14 +3114,14 @@ Package babel Info: Redefining russian shorthand "~
 LaTeX Warning: Command \cyrd invalid in math mode on input line 336.
 
 Missing character: There is no ä in font cmr12!
-<pic/spec_integ_emittance.pdf, id=429, 433.62pt x 325.215pt>
+<pic/spec_integ_emittance.pdf, id=454, 433.62pt x 325.215pt>
 File: pic/spec_integ_emittance.pdf Graphic file (type pdf)
 
 <use pic/spec_integ_emittance.pdf>
 Package pdftex.def Info: pic/spec_integ_emittance.pdf used on input line 354.
 (pdftex.def)             Requested size: 223.07211pt x 167.30646pt.
 
-<pic/angle_integ_emittance.pdf, id=430, 426.3773pt x 312.73212pt>
+<pic/angle_integ_emittance.pdf, id=455, 426.3773pt x 312.73212pt>
 File: pic/angle_integ_emittance.pdf Graphic file (type pdf)
 
 <use pic/angle_integ_emittance.pdf>
@@ -3135,20 +3144,20 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 371.
  [16.16]
-<pic/A_K.pdf, id=441, 578.16pt x 361.35pt>
+<pic/A_K.pdf, id=466, 578.16pt x 361.35pt>
 File: pic/A_K.pdf Graphic file (type pdf)
  <use pic/A_K.pdf>
 Package pdftex.def Info: pic/A_K.pdf used on input line 380.
 (pdftex.def)             Requested size: 356.04536pt x 222.52391pt.
 
-<pic/spec_und_1-1.pdf, id=442, 462.52802pt x 346.89601pt>
+<pic/spec_und_1-1.pdf, id=467, 462.52802pt x 346.89601pt>
 File: pic/spec_und_1-1.pdf Graphic file (type pdf)
 
 <use pic/spec_und_1-1.pdf>
 Package pdftex.def Info: pic/spec_und_1-1.pdf used on input line 386.
 (pdftex.def)             Requested size: 223.07211pt x 167.30746pt.
 
-<pic/spec_und_1-2.pdf, id=443, 462.52802pt x 346.89601pt>
+<pic/spec_und_1-2.pdf, id=468, 462.52802pt x 346.89601pt>
 File: pic/spec_und_1-2.pdf Graphic file (type pdf)
 
 <use pic/spec_und_1-2.pdf>
@@ -3191,14 +3200,14 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pic/spec_und_1-1.pdf): PDF inclusion:
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pic/spec_und_1-2.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] <pic/emmiter_traj.pdf, id=690, 433.62pt x 289.08pt>
+>] <pic/emmiter_traj.pdf, id=715, 433.62pt x 289.08pt>
 File: pic/emmiter_traj.pdf Graphic file (type pdf)
 
 <use pic/emmiter_traj.pdf>
 Package pdftex.def Info: pic/emmiter_traj.pdf used on input line 408.
 (pdftex.def)             Requested size: 209.41534pt x 139.61255pt.
 
-<pic/emmiter_traj_ang.pdf, id=691, 433.62pt x 289.08pt>
+<pic/emmiter_traj_ang.pdf, id=716, 433.62pt x 289.08pt>
 File: pic/emmiter_traj_ang.pdf Graphic file (type pdf)
 
 <use pic/emmiter_traj_ang.pdf>
@@ -3292,95 +3301,261 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 3.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 23.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pic/log_spec_1-1.pdf, id=868, 867.24pt x 325.215pt>
+File: pic/log_spec_1-1.pdf Graphic file (type pdf)
+
+<use pic/log_spec_1-1.pdf>
+Package pdftex.def Info: pic/log_spec_1-1.pdf used on input line 41.
+(pdftex.def)             Requested size: 455.24411pt x 170.71562pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 46.
+<pic/OptScheme_1-1.pdf, id=869, 1251.92131pt x 426.79132pt>
+File: pic/OptScheme_1-1.pdf Graphic file (type pdf)
+
+<use pic/OptScheme_1-1.pdf>
+Package pdftex.def Info: pic/OptScheme_1-1.pdf used on input line 50.
+(pdftex.def)             Requested size: 455.24411pt x 155.19469pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 50.
-[25.25
+(babel)             in language  on input line 53.
+ [25.25
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 53.
- <pic/und.pdf, id=848, 722.7pt x 154.5775pt>
+(babel)             in language  on input line 58.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 70.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 70.
+ [26.26 <./pic/log_spec_1-1.pdf> <./pic/OptScheme_1-1.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/OptScheme_1-1.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] <pic/log_spec_1-2.pdf, id=965, 867.24pt x 325.215pt>
+File: pic/log_spec_1-2.pdf Graphic file (type pdf)
+
+<use pic/log_spec_1-2.pdf>
+Package pdftex.def Info: pic/log_spec_1-2.pdf used on input line 74.
+(pdftex.def)             Requested size: 455.24411pt x 170.71562pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 79.
+
+<pic/OptScheme_1-2.pdf, id=966, 1251.92131pt x 426.79132pt>
+File: pic/OptScheme_1-2.pdf Graphic file (type pdf)
+
+<use pic/OptScheme_1-2.pdf>
+Package pdftex.def Info: pic/OptScheme_1-2.pdf used on input line 83.
+(pdftex.def)             Requested size: 455.24411pt x 155.19469pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 89.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 90.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 92.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 92.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 92.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 92.
+[27.27 <./pic/log_spec_1-2.pdf>]
+Overfull \hbox (3.0388pt too wide) in paragraph at lines 96--103
+ [][] 
+ []
+
+<pic/F_A.pdf, id=1008, 578.16pt x 361.35pt>
+File: pic/F_A.pdf Graphic file (type pdf)
+ <use pic/F_A.pdf>
+Package pdftex.def Info: pic/F_A.pdf used on input line 110.
+(pdftex.def)             Requested size: 450.69417pt x 281.68094pt.
+
+<pic/log_spec_1-4.pdf, id=1009, 867.24pt x 325.215pt>
+File: pic/log_spec_1-4.pdf Graphic file (type pdf)
+
+<use pic/log_spec_1-4.pdf>
+Package pdftex.def Info: pic/log_spec_1-4.pdf used on input line 117.
+(pdftex.def)             Requested size: 450.69417pt x 169.01352pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 122.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 122.
+[28.28 <./pic/OptScheme_1-2.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 124.
+<pic/und.pdf, id=1065, 722.7pt x 154.5775pt>
 File: pic/und.pdf Graphic file (type pdf)
  <use pic/und.pdf>
-Package pdftex.def Info: pic/und.pdf used on input line 57.
+Package pdftex.def Info: pic/und.pdf used on input line 128.
 (pdftex.def)             Requested size: 455.24411pt x 97.37253pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 62.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 62.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 62.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 62.
- [26.26 <./pic/und.pdf>]
-Overfull \hbox (20.21642pt too wide) detected at line 75
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (20.21642pt too wide) detected at line 146
 [][]\OML/cmm/m/it/14.4 C \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 k[][] \OT1/cmr/
 m/n/14.4 = [][]1 + [][] \OMS/cmsy/m/n/14.4 ^^Y [][]\OT1/cmr/m/n/14.4 1 + [](1 +
  [])[] = \OML/cmm/m/it/14.4 C[] \OT1/cmr/m/n/14.4 + ^^A\OML/cmm/m/it/14.4 C
  []
 
-
-Overfull \hbox (21.06606pt too wide) detected at line 85
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 146.
+[29.29]
+Overfull \hbox (21.06606pt too wide) detected at line 156
 [][][]
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 105.
-[27.27] <pic/spec_from_sec_und.pdf, id=877, 375.804pt x 281.85298pt>
+(babel)             in language  on input line 156.
+[30.30 <./pic/F_A.pdf> <./pic/log_spec_1-4.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/log_spec_1-4.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] <pic/spec_from_sec_und.pdf, id=1199, 375.804pt x 281.85298pt>
 File: pic/spec_from_sec_und.pdf Graphic file (type pdf)
 
 <use pic/spec_from_sec_und.pdf>
-Package pdftex.def Info: pic/spec_from_sec_und.pdf used on input line 111.
+Package pdftex.def Info: pic/spec_from_sec_und.pdf used on input line 182.
 (pdftex.def)             Requested size: 223.07211pt x 167.30678pt.
 
-<pic/sim_und_spec.pdf, id=878, 433.62pt x 325.215pt>
+<pic/sim_und_spec.pdf, id=1200, 433.62pt x 325.215pt>
 File: pic/sim_und_spec.pdf Graphic file (type pdf)
 
 <use pic/sim_und_spec.pdf>
-Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 117.
+Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 188.
 (pdftex.def)             Requested size: 223.07211pt x 167.30646pt.
-)
+
+<pic/sim_und_spec_new_mm.pdf, id=1203, 516.00781pt x 368.57701pt>
+File: pic/sim_und_spec_new_mm.pdf Graphic file (type pdf)
+
+<use pic/sim_und_spec_new_mm.pdf>
+Package pdftex.def Info: pic/sim_und_spec_new_mm.pdf used on input line 196.
+(pdftex.def)             Requested size: 455.24411pt x 325.17549pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 33.
- [28.28 <./pic/spec_from_sec_und.pdf> <./pic/sim_und_spec.pdf
+(babel)             in language  on input line 200.
+[31.31 <./pic/und.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 200.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 200.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 203.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 203.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 203.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 203.
+ [32.32 <./pic/spec_from_sec_und.pdf> <./pic/sim_und_spec.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pic/sim_und_spec.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] (./references.tex
+> <./pic/sim_und_spec_new_mm.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/sim_und_spec_new_mm.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>] <pic/OptScheme_1-4.pdf, id=1331, 1124.34422pt x 377.67506pt>
+File: pic/OptScheme_1-4.pdf Graphic file (type pdf)
+
+<use pic/OptScheme_1-4.pdf>
+Package pdftex.def Info: pic/OptScheme_1-4.pdf used on input line 207.
+(pdftex.def)             Requested size: 450.69417pt x 151.39006pt.
+
+<pic/3_harm_before_optics_2d.pdf, id=1332, 433.62pt x 433.62pt>
+File: pic/3_harm_before_optics_2d.pdf Graphic file (type pdf)
+
+<use pic/3_harm_before_optics_2d.pdf>
+Package pdftex.def Info: pic/3_harm_before_optics_2d.pdf used on input line 214
+.
+(pdftex.def)             Requested size: 136.57462pt x 136.57117pt.
+
+<pic/3_harm_after_DCM_2d.pdf, id=1333, 433.62pt x 433.62pt>
+File: pic/3_harm_after_DCM_2d.pdf Graphic file (type pdf)
+
+<use pic/3_harm_after_DCM_2d.pdf>
+Package pdftex.def Info: pic/3_harm_after_DCM_2d.pdf used on input line 220.
+(pdftex.def)             Requested size: 136.57462pt x 136.57117pt.
+
+<pic/3_harm_after_Sph_Mir_2d.pdf, id=1334, 433.62pt x 433.62pt>
+File: pic/3_harm_after_Sph_Mir_2d.pdf Graphic file (type pdf)
+
+<use pic/3_harm_after_Sph_Mir_2d.pdf>
+Package pdftex.def Info: pic/3_harm_after_Sph_Mir_2d.pdf used on input line 226
+.
+(pdftex.def)             Requested size: 136.57462pt x 136.57117pt.
+) (./references.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
@@ -3389,7 +3564,19 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [29.29]
+ [33.33 <./pic/OptScheme_1-4.pdf> <./pic/3_harm_before_optics_2d.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/3_harm_before_optics_2d.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./pic/3_harm_after_DCM_2d.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/3_harm_after_DCM_2d.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./pic/3_harm_after_Sph_Mir_2d.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/3_harm_after_Sph_Mir_2d.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining russian shorthand "~
@@ -3403,7 +3590,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 87.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 87.
- [30.30
+ [34.34
 
 
 ])) (./lists.tex
@@ -3415,13 +3602,24 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
-
-[31.31]
+ [35.35]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 3.
- (./dissertation.lof)
+ (./dissertation.lof
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 22.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 22.
+
+[36.36
+
+])
 \tf@lof=\write7
 \openout7 = `dissertation.lof'.
 
@@ -3433,9 +3631,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 9.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 9.
- [32.32
-
-]
+ [37.37]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining russian shorthand "~
@@ -3452,10 +3648,9 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 13.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 13.
- [33.33
+ [38.38
 
-])
-(./appendix.tex
+]) (./appendix.tex
 {\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \
 CYRA .
 Package babel Info: Redefining russian shorthand "|
@@ -3470,7 +3665,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 31.
-[34.34
+[39.39
 
 ]
 {\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \
@@ -3483,14 +3678,14 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 33.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 33.
-<pic/Diamond_bragg_R.pdf, id=1016, 433.62pt x 325.215pt>
+<pic/Diamond_bragg_R.pdf, id=1626, 433.62pt x 325.215pt>
 File: pic/Diamond_bragg_R.pdf Graphic file (type pdf)
 
 <use pic/Diamond_bragg_R.pdf>
 Package pdftex.def Info: pic/Diamond_bragg_R.pdf used on input line 44.
 (pdftex.def)             Requested size: 223.07211pt x 167.30646pt.
 
-<pic/Silicon_bragg_R.pdf, id=1017, 433.62pt x 325.215pt>
+<pic/Silicon_bragg_R.pdf, id=1627, 433.62pt x 325.215pt>
 File: pic/Silicon_bragg_R.pdf Graphic file (type pdf)
 
 <use pic/Silicon_bragg_R.pdf>
@@ -3504,7 +3699,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 56.
- [35.35
+ [40.40
 
 ]
 Package babel Info: Redefining russian shorthand "|
@@ -3519,7 +3714,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 61.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 61.
- [36.36 <./pic/Diamond_bragg_R.pdf> <./pic/Silicon_bragg_R.pdf
+ [41.41 <./pic/Diamond_bragg_R.pdf> <./pic/Silicon_bragg_R.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pic/Silicon_bragg_R.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -3532,7 +3727,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 61.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 61.
- [37.37]
+ [42.42]
 {\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \
 CYRV .
 Package babel Info: Redefining russian shorthand "|
@@ -3547,7 +3742,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 63.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 63.
-[38.38
+[43.43
 
 ]
 {\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \
@@ -3581,7 +3776,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 38.
-[39.39
+[44.44
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
@@ -3590,7 +3785,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: BD27D2C64E39DC45F1F9DA348B6E5817;9835.
+(rerunfilecheck)             Checksum: 24D37627529476C0914C3330E3806E2F;10854.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3598,13 +3793,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 38887 strings out of 493029
- 714959 string characters out of 6136233
- 885474 words of memory out of 5000000
- 41533 multiletter control sequences out of 15000+600000
+ 38978 strings out of 493029
+ 716998 string characters out of 6136233
+ 886515 words of memory out of 5000000
+ 41593 multiletter control sequences out of 15000+600000
  12277 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,18n,83p,10542b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,18n,83p,10542b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
@@ -3619,10 +3814,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1440.pfb>
-Output written on dissertation.pdf (39 pages, 596210 bytes).
+Output written on dissertation.pdf (44 pages, 1616562 bytes).
 PDF statistics:
- 1230 PDF objects out of 1440 (max. 8388607)
- 778 compressed objects within 8 object streams
- 158 named destinations out of 1000 (max. 500000)
- 365 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1843 PDF objects out of 2073 (max. 8388607)
+ 1078 compressed objects within 11 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 460 words of extra memory for PDF output out of 10000 (max. 10000000)
 

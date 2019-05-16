@@ -50,6 +50,11 @@ Fourier optics treatment of classical relativistic electrodynamics~/
 \BibEmph{Wiedemann~Helmut}. Particle accelerator physics. ---
 \newblock Springer, 2015.
 
+\bibitem{als2011elements}
+\selectlanguageifdefined{english}
+\BibEmph{Als-Nielsen~Jens, McMorrow~Des}. Elements of modern X-ray physics. ---
+\newblock John Wiley \& Sons, 2011.
+
 \bibitem{serkez2013grating}
 \selectlanguageifdefined{english}
 Grating monochromator for soft X-ray self-seeding the European XFEL~/
@@ -79,10 +84,22 @@ Grating monochromator for soft X-ray self-seeding the European XFEL~/
 \newblock 2019. \BibUrl{ https://github.com/TrebAndrew/thesis_
   andrei/tree/dev}.
 
-\bibitem{als2011elements}
+\bibitem{bragin2018short}
 \selectlanguageifdefined{english}
-\BibEmph{Als-Nielsen~Jens, McMorrow~Des}. Elements of modern X-ray physics. ---
-\newblock John Wiley \& Sons, 2011.
+Short-Period Superconducting Undulator Coils With Neutral Poles: Test Results~/
+  Alexey~Bragin, Sergey~Khruschev, Vladimir~Lev et~al.~// \BibEmph{IEEE
+  Transactions on Applied Superconductivity}. ---
+\newblock 2018. ---
+\newblock Vol.~28, no.~4. ---
+\newblock Pp.~1--4.
+
+\bibitem{gluskin2019superconducting}
+\selectlanguageifdefined{english}
+\BibEmph{Gluskin~Efim, Mezentsev~Nikolai}. Superconducting Wigglers and
+  Undulators~// \BibEmph{Synchrotron Light Sources and Free-Electron Lasers:
+  Accelerator Physics, Instrumentation and Science Applications}. ---
+\newblock 2019. ---
+\newblock Pp.~1--51.
 
 \bibitem{authier2006dynamical}
 \selectlanguageifdefined{english}

@@ -63,16 +63,6 @@
 
 \maketitle
 
-\small
-\begin{frame}\label{r3}
-\frametitle{Карта ускорительных центров}
-\vspace{-20pt}
-\begin{figure}[h]
-	\center{\includegraphics[width=1.0\linewidth]{pic/map.png}}	
-	\raggedright\tiny{Жёлтым цветом обозначены центры синхротронного излучения}
-\end{figure}
-\end{frame}
-
 \iffalse
 \small
 \begin{frame}
@@ -96,6 +86,17 @@
 \end{frame}
 
 \small
+\begin{frame}\label{r3}
+\frametitle{Карта ускорительных центров}
+\vspace{-20pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=1.0\linewidth]{pic/map.png}}	
+	\raggedright\tiny{Жёлтым цветом обозначены центры синхротронного излучения}
+\end{figure}
+\end{frame}
+
+\iffalse
+\small
 \begin{frame}
 \frametitle{СКИФ \centering{\small{Сибирский Кольцевой Источник Фотонов}}}\label{t1}
 \vspace{-20pt}
@@ -117,6 +118,7 @@
 	\end{tabular}
 \end{table}
 \end{frame}
+\fi
 
 \small
 \begin{frame}
@@ -150,8 +152,8 @@
 		\item Схема работы <<Оптической группы>> ЦКП СКИФ
 		\item Принципиальные основы кода для расчёта синхротронного излучения SRW
 		\item Обзор типовых ондуляторов для <<СКИФ>>
-		\item Расчёт оптической схемы станции 1-1
-		\item Расчёт ондулятора с корректирующими катушками для станции 1-4 
+		\item Расчёт оптических схем станции 1-1, 1-2
+		\item Расчёт оптики станции 1-4. Расчёт специального ондулятора с корректирующими катушками для станции 
 	\end{itemize}
 \end{center}
 \end{frame}
@@ -218,7 +220,7 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 %\cfrac{i\omega e}{c}\displaystyle\int\limits_{-\infty}^{\infty} dt'\bigg[\cfrac{\vec{\beta} - \vec{n}}{|\vec{r}_0 - \vec{r'}_0(t')|}-\cfrac{ic}{\omega}\cfrac{\vec{n}}{|\vec{r}_0 - \vec{r'}_0(t')|}\bigg]\\
 %\exp[i\bigg(t' + \cfrac{|\vec{r}_0 - \vec{r'}_0(t')|}{c}\bigg)]
 
-
+\iffalse
 \small
 \begin{frame}
 \frametitle{Ондулятор --- интерференционное устройство}\label{t1}
@@ -230,7 +232,8 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 		%\vspace{-20pt}
 		\center{\includegraphics[width=0.99\linewidth]{pic/traj.pdf}}
 \end{figure}
- \end{frame}
+\end{frame}
+\fi
 
 \small
 \begin{frame}
@@ -243,21 +246,23 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 	\begin{minipage}[h]{0.49\linewidth}
 	\vspace{10pt}
 	\begin{table}[h]
-		\begin{tabular}{|c|c|c|c|}
+		\tiny
+		\begin{tabular}{c|c}
 			\hline\hline
 			\rule{0pt}{3ex}$\mathnormal{B, [T]}$      & $\mathnormal{0.7 - 1.5}$   \\ \hline
 			\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  &  $\mathnormal{3}$        \\ \hline
 			\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{15 - 20}$     \\ \hline
 			\rule{0pt}{3ex}$\mathnormal{N}$           & $\mathnormal{\geq 120}$ \\ \hline
 			\rule{0pt}{3ex}Фазовая ошибка &$\mathnormal{\leq 2^{\circ}}$  \\
-			\hline
+			\hline\hline
 		\end{tabular}
 	\end{table}
 	\end{minipage}
 \end{figure}
 \vspace{-20pt}
 \begin{table}[h]
-	\begin{tabular}{|c|c|c|c|c|}
+	\tiny
+	\begin{tabular}{c|c|c|c|c}
 		\hline
 		\hline
 		\rule{0pt}{3ex}   $\mathnormal{E, [GeV]}$ & $\mathnormal{I, [mA]}$ & $\mathnormal{\beta_x, [m]}$ & $\mathnormal{\beta_{y}, [m]}$&\\ \hline
@@ -265,7 +270,7 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 		\hline	
 		\rule{0pt}{3ex}   $\mathnormal{\sigma_x, [m]}$ & $\mathnormal{\sigma_{x'}, [rad]}$ & $\mathnormal{\sigma_y, [m]}$     & $\mathnormal{\sigma_{y'}, [rad]}$ & $\mathnormal{\Delta E / E}$      \\ \hline
 		\rule{0pt}{3ex}   $\mathnormal{33.0 \times 10^{-6}}$  & $\mathnormal{2.65 \times 10^{-6}}$  &  $\mathnormal{8.6 \times 10^{-7}}$ & $\mathnormal{5.0 \times 10^{-7}}$   & $\mathnormal{8.6 \times 10^{-4}}$ \\
-		\hline
+		\hline\hline
 	\end{tabular}
 \end{table}
 \end{frame}
@@ -275,28 +280,33 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \frametitle{Расчёт станции 1-1. Тепловые нагрузки}\label{t1}
 \vspace{-10pt}
 \begin{figure}[h]
-	\begin{minipage}[h]{0.49\linewidth}
-		\raggedright{\includegraphics[width=1.1\linewidth]{pic/power_dens_1-1.pdf}}
-	\end{minipage}
-	\begin{minipage}[h]{0.49\linewidth}
-		\raggedleft{\includegraphics[width=0.9\linewidth]{pic/A_K.pdf}}
-		\begin{minipage}[h]{0.99\linewidth}
+		\hspace{-20pt}
+		\begin{minipage}[h]{0.49\linewidth}
 			%\vspace{-90pt}	
 			\tiny
-			\vspace{10pt}	
+			\center{Ондулятор}
+			\vspace{-10pt}		
 			\begin{table}[h]
-				\begin{tabular}{|c|c|c|c|c|}
+				\begin{tabular}{c|c}
 					\hline\hline
 					\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.36(2.29)}$   \\ \hline
 					\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2.3}$          \\ \hline
 					\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{18}$    		\\ \hline
 					\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
 					\rule{0pt}{3ex}Гармоники	              & $\mathnormal{11, 13, 17, 23}$  \\
-					\hline
+					\hline\hline
 				\end{tabular}
 			\end{table}
-		\end{minipage}
-	\end{minipage}
+		\raggedleft{\includegraphics[width=0.9\linewidth]{pic/A_K.pdf}}
+		\vspace{-10pt}	
+		\center{Амплитудный спектр}
+\end{minipage}
+\begin{minipage}[h]{0.49\linewidth}
+	\raggedright{\includegraphics[width=1.05\linewidth]{pic/power_dens_1-1.pdf}}
+	\vspace{-15pt}	
+	\tiny\center{Плотность мощности}
+\end{minipage}
+
 \end{figure}
 
 %\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
@@ -322,7 +332,7 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 
 \small
 \begin{frame}
-\frametitle{Оптическая схема станции 1-1. Итерация без линз}\label{t1}
+\frametitle{Оптическая схема станции 1-1}\label{t1}
 \vspace{-20pt}
 \begin{figure}[h]
 	\center{\includegraphics[width=0.8\linewidth]{pic/OptScheme_1-1.pdf}}
@@ -340,28 +350,33 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \frametitle{Расчёт станции 1-2. Тепловые нагрузки}\label{t1}
 \vspace{-10pt}
 \begin{figure}[h]
+	\hspace{-20pt}
 	\begin{minipage}[h]{0.49\linewidth}
-		\raggedright{\includegraphics[width=1.1\linewidth]{pic/power_dens_1-2.pdf}}
-	\end{minipage}
-	\begin{minipage}[h]{0.49\linewidth}
+		%\vspace{-90pt}	
+		\tiny
+		\center{Ондулятор}
+        \vspace{-10pt}	
+		\begin{table}[h]
+			\begin{tabular}{c|c}
+				\hline\hline
+				\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.06(1.53)}$   \\ \hline
+				\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2}$          \\ \hline
+				\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{15,6}$    		\\ \hline
+				\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
+				\rule{0pt}{3ex}Гармоники	              & $\mathnormal{5, 7, 9, 13}$  \\
+				\hline\hline
+			\end{tabular}
+		\end{table}
 		\raggedleft{\includegraphics[width=0.9\linewidth]{pic/A_K.pdf}}
-		\begin{minipage}[h]{0.99\linewidth}
-			%\vspace{-90pt}	
-			\tiny
-			\vspace{10pt}	
-			\begin{table}[h]
-				\begin{tabular}{|c|c|c|c|c|}
-					\hline\hline
-					\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.06(1.54)}$   \\ \hline
-					\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2}$          \\ \hline
-					\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{15.6}$    		\\ \hline
-					\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
-					\rule{0pt}{3ex}Гармоники	              & $\mathnormal{5, 7, 9, 13}$  \\
-					\hline
-				\end{tabular}
-			\end{table}
-		\end{minipage}
+		\vspace{-10pt}	
+		\center{Амплитудный спектр}
 	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
+		\raggedright{\includegraphics[width=1.05\linewidth]{pic/power_dens_1-2.pdf}}
+		\vspace{-15pt}	
+		\tiny\center{Плотность мощности}
+	\end{minipage}
+	
 \end{figure}
 
 %\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
@@ -372,14 +387,14 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 %\vspace{-90pt}	
 \tiny
 \begin{table}[h]
-	\begin{tabular}{|c|c|c|c|c|}
+	\begin{tabular}{c|c}
 		\hline\hline
 		\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.36(2.29)}$   \\ \hline
 		\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2.3}$          \\ \hline
 		\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{18}$    		\\ \hline
 		\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
 		\rule{0pt}{3ex}Гармоники	              & $\mathnormal{11, 13, 17, 23}$  \\
-		\hline
+		\hline\hline
 	\end{tabular}
 \end{table}
 \end{minipage}
@@ -387,7 +402,7 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 
 \small
 \begin{frame}
-\frametitle{Оптическая схема станции 1-2. Итерация без линз}\label{t1}
+\frametitle{Оптическая схема станции 1-2}\label{t1}
 \vspace{-20pt}
 \begin{figure}[h]
 \center{\includegraphics[width=0.8\linewidth]{pic/OptScheme_1-2.pdf}}
@@ -400,6 +415,65 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
 \end{frame}
 
+\small
+\begin{frame}
+\frametitle{Расчёт оптики станции 1-4 (XAS-спектроскопия)}\label{t1}
+\vspace{-10pt}
+\begin{figure}[h]
+	\hspace{-20pt}
+	\begin{minipage}[h]{0.49\linewidth}
+		%\vspace{-90pt}	
+		\tiny
+		\center{Ондулятор}
+		\vspace{-10pt}
+		\begin{table}[h]
+			\begin{tabular}{c|c}
+				\hline\hline
+				\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.06(1.53)}$   \\ \hline
+				\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2}$          \\ \hline
+				\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{15,6}$    		\\ \hline
+				\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
+				\rule{0pt}{3ex}Гармоники	              & $\mathnormal{5, 7, 9, 13}$  \\
+				\hline\hline
+			\end{tabular}
+		\end{table}
+		\raggedleft{\includegraphics[width=0.9\linewidth]{pic/F.pdf}}
+		\vspace{-10pt}	
+		\center{Амплитудный спектр}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
+		\raggedright{\includegraphics[width=1.05\linewidth]{pic/power_dens_1-4.pdf}}
+		\vspace{-15pt}	
+		\tiny\center{Плотность мощности}
+	\end{minipage}
+	
+\end{figure}
+
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{Оптическая схема станции 1-4}\label{t1}
+\vspace{-10pt}
+\begin{figure}[h]
+	\center{\includegraphics[width=0.8\linewidth]{pic/OptScheme_1-4.pdf}}
+	\vspace{15pt}	
+	%Задача: расчёт тепловых нагрузок в первом приближении
+
+	\begin{minipage}[h]{0.32\linewidth}
+		\raggedright{\includegraphics[width=0.79\linewidth]{pic/3_harm_before_optics_2d.pdf}}
+	\end{minipage}
+	\begin{minipage}[h]{0.32\linewidth}
+		\raggedright{\includegraphics[width=0.79\linewidth]{pic/3_harm_after_DCM_2d.pdf}}
+	\end{minipage}
+	\begin{minipage}[h]{0.32\linewidth}
+		\raggedright{\includegraphics[width=0.79\linewidth]{pic/3_harm_after_Sph_Mir_2d.pdf}}
+	\end{minipage}
+\end{figure}
+
+\vspace{25pt}	
+\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
+\end{frame}
 
 \small
 \begin{frame}
@@ -448,7 +522,7 @@ $\mathnormal{{\widetilde{I}} =
 \small
 \begin{frame}
 \frametitle{Моделирование SRW}\label{t1}
-\vspace{-36pt}
+\vspace{-29pt}
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
 		\center{Предсказание}
@@ -458,7 +532,7 @@ $\mathnormal{{\widetilde{I}} =
 	\begin{minipage}[h]{0.49\linewidth}
 		\center{Симуляция SRW}
 		\vspace{-10pt}
-		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec.pdf}}
+		\center{\includegraphics[width=1.035\linewidth]{pic/sim_und_spec.pdf}}
 	\end{minipage}
 \end{figure}
 \vspace{-30pt}
@@ -480,7 +554,7 @@ $\mathnormal{{\widetilde{I}} =
 	\begin{minipage}[h]{0.49\linewidth}
 		\center{Симуляция SRW}
 		\vspace{-10pt}
-		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec.pdf}}
+		\center{\includegraphics[width=1.035\linewidth]{pic/sim_und_spec.pdf}}
 	\end{minipage}
 \end{figure}
 \vspace{-20pt}
@@ -500,7 +574,8 @@ $\mathnormal{{\widetilde{I}} =
 \begin{center}
 	\begin{itemize}
 		\item Дальнейшее детальное моделирование оптических схем
-		\item Принятие решения по концепции ондулятора станции 1-4	
+		\item Принятие решения по концепции ондулятора станции 1-4
+		\item Моделирование полей ондуляторов	
 	\end{itemize}
 \end{center}
 {\textit{\href{https://github.com/TrebAndrew/thesis_andrei.git}{Здесь} можно следить за работой оптической группы}}\\
@@ -585,7 +660,7 @@ $\mathnormal{{\widetilde{I}} =
 	\begin{minipage}{0.49\textwidth}
 		\hspace{-10pt}\includegraphics[width=1.1\textwidth]{{pic/A_K}.pdf}
 		\vspace{-15pt}
-		\center{Амплитудный спектр гармоник в зависимости от параметра ондуляторности $K$}
+		\center{Амплитудный спектр гармоник}
 	\end{minipage}    
 \end{figure}
 
@@ -611,6 +686,41 @@ $\mathnormal{{\widetilde{I}} =
 	$t = t' + \cfrac{1}{c} |R - r(t')|$ \hspace{40pt}$\cfrac{dt}{dt'} = 1 - \vec{n}\cdot\vec{\beta}$
 \end{figure}
 \end{frame}
+
+\small
+\begin{frame}
+\frametitle{Кривые Дарвина}\label{t1}
+\begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/Diamond_bragg_R.pdf}}
+	\end{minipage}	
+	\begin{minipage}[h]{0.49\linewidth}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/Silicon_bragg_R.pdf}}
+	\end{minipage}
+\end{figure}
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{Кривые поглощения для алмаза}\label{t1}
+\begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/bragg_T_1-1.pdf}}
+		\vspace{-30pt}
+		\center{Станция 1-1}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/bragg_T_1-2.pdf}}
+		\vspace{-30pt}
+		\center{Станция 1-2}
+	\end{minipage}	
+\end{figure}
+\end{frame}
+
 
 \end{document}
 
