@@ -1,7 +1,7 @@
 \chapter{Проектирование рентгенооптических трактов для Сибирского Кольцевого Источника Фонтов}
 
 \section{Введение}
-В данной главе мы рассмотрим схемы рентгенооптических трактов (здесь и далее, - бимлайнов), от источников высокого энергетических фотонов --- вставных устройств до деталей оптических компотен на билайне: фильтров, монохроматоров, рентгеновских зеркал и линз. В этой главе, будут обсуждаться станции первой очереди: 1-1 --- <<Микрофокус>>, 1-2 --- <<Структурная диагностика>>, 1-4 --- <<XAFS-спектроскопия и магнитный дихроизм>>.  
+В данной главе мы рассмотрим схемы рентгенооптических трактов (станций) первой очереди Центра Коллективного Пользования СКИФ: от источников высокого энергетических фотонов --- вставных устройств до деталей оптических компотен на билайне, --- фильтров, монохроматоров, рентгеновских зеркал и линз. В этой главе, будут обсуждаться станции: 1-1 --- <<Микрофокус>>, 1-2 --- <<Структурная диагностика>>, 1-4 --- <<XAFS-спектроскопия и магнитный дихроизм>>.  
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{c|c|c|c}
@@ -18,10 +18,12 @@
 	\caption{Параметры накопительного кольца и электронного пучка в ондуляторном пустом промежутке}
 	\label{table:ebeam}
 \end{table}
-На всех указанных станциях будут использоваться сверхпроводящие ондуляторы разработки и производства ИЯФ СО РАН, см., например,  \cite{bragin2018short}, \cite{gluskin2019superconducting}.
+
+На всех указанных станциях будут использоваться сверхпроводящие ондуляторы разработки и производства ИЯФ СО РАН, см., например, \cite{bragin2018short} и \cite{gluskin2019superconducting}. Всё ондуляторы будут вводиться в пустой промежуток с геометрическими и угловыми размерами электронного пучка и бета функциями указанными в таблице~\ref{table:ebeam}. 
 
 \section{Станция 1-1 --- <<Микрофокус>>}
-Станция имеет вставное устройство с параметрами указанными в таб.~\ref{table:und1-1}
+\subsection{Вставное устройство}
+Станция имеет вставное устройство с параметрами указанными в таб.~\ref{table:und1-1}. Выбора такого типа ондулятора объясняется тем, что на станции предполагается работать на довольно высоких гармониках, поэтому, согласно амплитудному спектру на рис~\ref{eq:A_JJ}, необходимо как можно далее сдвинуть максимум спектрального потока в сторону более высоких гармоник. 
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{c|c|c|c|c}
@@ -34,28 +36,146 @@
 	\caption{Параметры ондулятора для станции 1-1}
 	\label{table:und1-1}
 \end{table}
-при параметрах электронного пучка указанных в таблице~\ref{table:ebeam}: 
-
+На рис.~\ref{fig:log_spec_1-1} представлен спектр используемого ондулятора через конечную апертуру, видно, что рабочие гармоники подавлены на порядок по сравнению с фундаментальной гармоникой.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{pic/log_spec_1-1.pdf}
 	\caption{Спектр с ондулятора с $K = 2,29$ через апертуру $0,4 \; \textup{мм}$ в логарифмическом масштабе (сверху) и в линейном (снизу) посчитанный в SPECTRA}
-	\label{fig:section_und_SRW}
+	\label{fig:log_spec_1-1}
 \end{figure}
 
 \subsection{Оптика станции 1-1}
-
-\begin{figure}[h]
+Первостепенной задачей по расчёту оптики на рассматриваемой станции являлась оценка тепловых нагрузок на первые оптические элементы. На рис.~\ref{fig:OptScheme_1-1} представлена оптическая схема станции в первом приближении без фокусирующих линз. После прохождения пучком апертуры, которая является угловым фильтром, излучение проходит алмазное окно, толщина которого $100 \; \textup{мкм}$ из расчёта $\approx 3 \%$ поглощения на первой рабочей гармонике. Алмазные кристаллы являются хорошими фильтрами низких энергий. Основная тепловая нагрузка с первых гармоник снимается входным алмазным окном. Более детальное описание поглощательных свойств алмазных кристаллов можно найти в приложении к данной работе~\ref{diamond cry absorb}.
+\begin{figure}[h!]
 	\centering  
 	\includegraphics[width=\textwidth]{pic/OptScheme_1-1.pdf}
 	\caption{Оптическая схема станции 1-1}
 	\label{fig:OptScheme_1-1}  
 \end{figure}
+После алмазного окна излучение разделяется алмазными $C(111)$ монохроматорами на рабочие подстанции, прямой пучок падает на кремниевый $Si(111)$ двукристальный монохроматор. Поглощённые удельные мощности на каждом из представленных оптических элементах можно найти на рис.~\ref{fig:full_spec_1-1}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{pic/full_spec_1-1.pdf}
+	\caption{Спектр электронного пучка с нулевым эмиттансом падающий на алмазное окно --- розовый цвет, излучение падающее на двукристалльный монохроматор --- чёрный цвет}
+	\label{fig:full_spec_1-1}   
+\end{figure}
+Полезно сравнить расчёты связанные с полной падающей мощность на первый оптический элемент с одним из результатов встроенной функции в SRW по расчёту полной мощности, результаты этих расчётов приведены на рис.~\ref{fig:power_dens_1-1}. Необходимо отметить, что  эти расчёты~\ref{fig:full_spec_1-1} и рис.~\ref{fig:power_dens_1-1} независимы и совпадают, а незначительное отличие заключается лишь в том, что интегрирование на рис.~\ref{fig:full_spec_1-1} велось не по полному спектру, а лишь до энергии $60 \; \textup{кэВ}$, что не может привести ошибкам в расчётах, так как были не учтены фотоны с энергиями больше $60 \; \textup{кэВ}$, однако они являются прозрачными для большинства оптических элементов и не вносят значительного вклада в тепловые нагрузки.
 
+Итого, результаты расчётов: 
+\DTLloaddb
+[
+noheader,
+keys={},
+headers={
+	\shortstack{$n_{harm}$},
+	\shortstack{$\sigma_x, [mm]$},
+	\shortstack{$\sigma_y, [mm]$},
+	\shortstack{$\sigma_x, [\mu rad]$},
+	\shortstack{$\sigma_y, [\mu rad]$}}
+]
+{RMS_before1-1}{tabl_1-1/RMS_before1-1.csv}
+\begin{table}[h!]
+	\sisetup{
+		parse-numbers   = false,
+		table-number-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 4,
+		input-decimal-markers = .
+	}
+	\renewcommand*\dtlrealalign{S}
+	\centering
+	\DTLdisplaydb{RMS_before1-1}
+	\vspace{4pt} 
+	\caption{Сечение пучка на входе в первую апертуру (25 м)}
+	\label{table:size_obeam}
+\end{table}
 
+	\DTLloaddb
+[
+noheader,
+keys={},
+headers={
+	\shortstack{$n_{harm}$},
+	\shortstack{$\theta_{cr}, grad$},
+	\shortstack{$d_{eff}, \mu m$},
+	\shortstack{$S_{proj}, mm$}}
+]
+{Cr_angles1-1}{tabl_1-1/Cr_angles1-1.csv}
+\begin{table}[h!]
+	\sisetup{
+		parse-numbers   = false,
+		table-number-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 4,
+		input-decimal-markers = .
+	}
+	\renewcommand*\dtlrealalign{S}
+	\centering
+	\DTLdisplaydb{Cr_angles1-1}
+	\vspace{4pt} 
+	\caption{Номер гармоники, ориентация кристалла, эффективная толщина алмазного монохроматора, проекция пучка(горизонтальная) }
+	\label{table:stable}
+\end{table}
+
+\DTLloaddb
+[
+noheader,
+keys={},
+headers={
+	\shortstack{$n_{harm}$},
+	\shortstack{$\sigma_x, [mm]$},
+	\shortstack{$\sigma_y, [mm]$},
+	\shortstack{$\sigma_x, [\mu rad]$},
+	\shortstack{$\sigma_y, [\mu rad]$}}
+]
+{RMS_after1-1}{tabl_1-1/RMS_after1-1.csv}
+\begin{table}[h!]
+	\sisetup{
+		parse-numbers   = false,
+		table-number-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 4,
+		input-decimal-markers = .
+	}
+	\renewcommand*\dtlrealalign{S}
+	\centering
+	\DTLdisplaydb{RMS_after1-1}
+	\vspace{4pt} 
+	\caption{Сечение пучка после монохроматоров}
+	\label{table:size_obeam_after}
+\end{table}
+
+\DTLloaddb
+[
+noheader,
+keys={},
+headers={
+	\shortstack{$n_{harm}$},
+	\shortstack{$E, eV$},
+	\shortstack{$\lambda, [nm]$},
+	\shortstack{$ph/s$},
+	\shortstack{$ph/s/0.1\%$},
+	\shortstack{$\Delta E / E$}}
+]
+{ph_beam_par_after_cr1-1}{tabl_1-1/ph_beam_par_after_cr1-1.csv}
+\begin{table}[h!]
+	\sisetup{
+		parse-numbers   = false,
+		table-number-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 4,
+		input-decimal-markers = .
+	}
+	\renewcommand*\dtlrealalign{S}
+	\centering
+	\DTLdisplaydb{ph_beam_par_after_cr1-1}
+	\vspace{4pt} 
+	\caption{Потоки фотонов после соответствующих монохроматоров}
+\end{table}
 \section{Станция 1-2 --- <<Структурная диагностика>>}
 
 \subsection{Вставное устройство}
+На станции 1-2 используется сверхпроводящий ондулятор с параметром ондуляторности $K = 1.54$. На станции, в отличии от 1-1, предполагается работать на более низких гармониках, этим объясняется выбор указанного параметра $K$, амплитудный спектр смещён в сторону фундаментальной гармоники. В таблице~\ref{table:und1-2} приведены основные характеристики используемого ондулятора, а на рис.~\ref{fig:log_spec_1-2} показан спектр этого ондулятора через конечную апертуру.
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{c|c|c|c|c}
@@ -66,25 +186,143 @@
 	\end{tabular}
 	\vspace{4pt} 
 	\caption{Параметры ондулятора для станции 1-2}
-	\label{table:und1-1}
+	\label{table:und1-2}
 \end{table}
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{pic/log_spec_1-2.pdf}
 	\caption{Спектр с ондулятора с $K = 1,54$ через апертуру $0,4 \; \textup{мм}$ в логарифмическом масштабе (сверху) и в линейном (снизу) посчитанный в SPECTRA}
-	\label{fig:section_und_SRW}
+	\label{fig:log_spec_1-2}
 \end{figure}
 
 \subsection{Оптика станции 1-2}
-
-\begin{figure}[h]
+Оптическая схема станции, в смысле алгоритма расчётов, аналогична станции 1-1, с одним лишь отличием в том, что используется другой тип ондулятора и более низкие рабочие гармоники. На рис.~\ref{fig:OptScheme_1-2} приведена схема станции, совпадающая по структуре со той же схемой для 1-1. 
+\begin{figure}[h!]
 	\centering  
 	\includegraphics[width=\textwidth]{pic/OptScheme_1-2.pdf}
 	\caption{Оптическая схема станции 1-2}
 	\label{fig:OptScheme_1-2}  
 \end{figure}
+На рис.~\ref{fig:full_spec_1-2} приведены удельные тепловые нагрузки на элементы станции. Такое же как и для 1-1 сравнение результатов расчёта полной падающей удельной мощности на первый оптический элемент можно найти на рис.~\ref{fig:power_dens_1-2} в приложении к работе.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{pic/full_spec_1-2.pdf}
+	\caption{Спектр электронного пучка с нулевым эмиттансом падающий на алмазное окно --- розовый цвет, тот же излучение падающее на двукристалльный монохроматор --- чёрный цвет}
+	\label{fig:full_spec_1-2}   
+\end{figure}
 
+Итого, результаты расчётов: 
+\DTLloaddb
+[
+noheader,
+keys={},
+headers={
+	\shortstack{$n_{harm}$},
+	\shortstack{$\sigma_x, [mm]$},
+	\shortstack{$\sigma_y, [mm]$},
+	\shortstack{$\sigma_x, [\mu rad]$},
+	\shortstack{$\sigma_y, [\mu rad]$}}
+]
+{RMS_before1-2}{tabl_1-2/RMS_before1-2.csv}
+\begin{table}[h!]
+	\sisetup{
+		parse-numbers   = false,
+		table-number-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 4,
+		input-decimal-markers = .
+	}
+	\renewcommand*\dtlrealalign{S}
+	\centering
+	\DTLdisplaydb{RMS_before1-2}
+	\vspace{4pt} 
+	\caption{Сечение пучка на входе в первую апертуру (25 м)}
+	\label{table:size_obeam}
+\end{table}
+
+\DTLloaddb
+[
+noheader,
+keys={},
+headers={
+	\shortstack{$n_{harm}$},
+	\shortstack{$\theta_{cr}, grad$},
+	\shortstack{$d_{eff}, \mu m$},
+	\shortstack{$S_{proj}, mm$}}
+]
+{Cr_angles1-2}{tabl_1-2/Cr_angles1-2.csv}
+\begin{table}[h!]
+	\sisetup{
+		parse-numbers   = false,
+		table-number-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 4,
+		input-decimal-markers = .
+	}
+	\renewcommand*\dtlrealalign{S}
+	\centering
+	\DTLdisplaydb{Cr_angles1-2}
+	\vspace{4pt} 
+	\caption{Номер гармоники, ориентация кристалла, эффективная толщина алмазного монохроматора, проекция пучка(горизонтальная) }
+	\label{table:stable}
+\end{table}
+
+\DTLloaddb
+[
+noheader,
+keys={},
+headers={
+	\shortstack{$n_{harm}$},
+	\shortstack{$\sigma_x, [mm]$},
+	\shortstack{$\sigma_y, [mm]$},
+	\shortstack{$\sigma_x, [\mu rad]$},
+	\shortstack{$\sigma_y, [\mu rad]$}}
+]
+{RMS_after1-2}{tabl_1-2/RMS_after1-2.csv}
+\begin{table}[h!]
+	\sisetup{
+		parse-numbers   = false,
+		table-number-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 4,
+		input-decimal-markers = .
+	}
+	\renewcommand*\dtlrealalign{S}
+	\centering
+	\DTLdisplaydb{RMS_after1-2}
+	\vspace{4pt} 
+	\caption{Сечение пучка после монохроматоров}
+	\label{table:size_obeam_after}
+\end{table}
+
+\DTLloaddb
+[
+noheader,
+keys={},
+headers={
+	\shortstack{$n_{harm}$},
+	\shortstack{$E, eV$},
+	\shortstack{$\lambda, [nm]$},
+	\shortstack{$ph/s$},
+	\shortstack{$ph/s/0.1\%$},
+	\shortstack{$\Delta E / E$}}
+]
+{ph_beam_par_after_cr1-2}{tabl_1-2/ph_beam_par_after_cr1-2.csv}
+\begin{table}[h!]
+	\sisetup{
+		parse-numbers   = false,
+		table-number-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 4,
+		input-decimal-markers = .
+	}
+	\renewcommand*\dtlrealalign{S}
+	\centering
+	\DTLdisplaydb{ph_beam_par_after_cr1-2}
+	\vspace{4pt} 
+	\caption{Потоки фотонов после соответствующих монохроматоров}
+\end{table}
 
 \section{Станция 1-4 --- <<XAFS-спектроскопия и магнитный дихроизм>>}
 \subsection{Вставное устройство}
@@ -197,6 +435,9 @@ C =k_w\cfrac{\Delta \omega}{\omega_r} = \cfrac{\Delta \omega_r}{2c\gamma}\bigg(1
 	\caption{Спектр секционного ондулятора проинтегрированного по конечной апертуре --- $1 \; \textup{мм}$}
 	\label{fig:sim_und_spec_new_mm}  
 \end{figure}
+
+\subsection{Излучение ондулятора с линейно меняющимся магнитным полем вдоль ондулятора}
+
 \subsection{Оптика станции 1-4}
 
 На рис.~\ref{fig:OptScheme_1-4} представленна оптическая схема станции реализации EXAS спектроскопии, которая состоит из двукристального монохроматора и далее системы зеркал Kirkpatrick-Baez для фокусировки излучения на образец. Для реализации quick-EXAS спектроскопии будет использоваться отдельный монохроматор, но т.к. на данный момент нет консенсуса по концепции ондулятора для этой техники, в данной работе оптическая схема для указанного метода рассматриваться не будет.
@@ -224,7 +465,7 @@ C =k_w\cfrac{\Delta \omega}{\omega_r} = \cfrac{\Delta \omega_r}{2c\gamma}\bigg(1
 	\begin{minipage}{0.3\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{pic/3_harm_after_Sph_Mir_2d.pdf}
-		\caption{Сечение пуска около фокуса зеркал}
+		\caption{Сечение пучка около фокуса зеркал}
 		\label{fig:3_harm_after_Sph_Mir_2d}
 	\end{minipage} 
 \end{figure}

@@ -35,3 +35,24 @@
 \usepackage{titlesec}
 \usepackage{physics}
 \DeclareMathOperator{\sinc}{sinc}
+
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[LE,RO]{Share\LaTeX}
+%\fancyhead[RE,LO]{Guides and tutorials}
+%\fancyfoot[CE,CO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{datatool}
+\usepackage{siunitx}
+\usepackage{booktabs} % for nicer tables
+\usepackage{caption} % improve caption spacing (among other things)
+\usepackage{bm}
+\renewcommand*\dtldisplaystarttab{\toprule}
+\renewcommand*\dtldisplayendtab{\tabularnewline\bottomrule}
+\renewcommand*\dtldisplayafterhead{\midrule}
+
+\usepackage{pgfplotstable}
+\usepackage{siunitx}
+\usepackage{booktabs}
