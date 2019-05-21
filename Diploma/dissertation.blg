@@ -3,47 +3,58 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
 The style file: ../BibTeX-Styles/utf8gost71u.bst
 Database file #1: ../biblio/othercites.bib
+I was expecting a `,' or a `}'---line 130 of file ../biblio/othercites.bib
+ :   
+ :   url = {https://www.maxiv.lu.se/publications/},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in NSLS
+Warning--empty institution in balewski2004petra
+ptr=1, stack=
+PETRA III: A low emittance synchrotron radiation source. Technical design report
+---the literal stack isn't empty for entry balewski2004petra
+while executing---line 1455 of file ../BibTeX-Styles/utf8gost71u.bst
 Warning--empty journal in chubar1998proceedings
 Warning--empty journal in serkez2015design
-You've used 15 entries,
+You've used 21 entries,
             2802 wiz_defined-function locations,
-            724 strings with 7336 characters,
-and the built_in function-call counts, 4304 in all, are:
-= -- 511
-> -- 154
-< -- 20
-+ -- 50
-- -- 35
-* -- 207
-:= -- 497
-add.period$ -- 49
-call.type$ -- 15
+            753 strings with 8088 characters,
+and the built_in function-call counts, 5785 in all, are:
+= -- 691
+> -- 207
+< -- 27
++ -- 68
+- -- 47
+* -- 277
+:= -- 669
+add.period$ -- 66
+call.type$ -- 21
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 214
-empty$ -- 445
-format.name$ -- 35
-if$ -- 1117
+cite$ -- 25
+duplicate$ -- 288
+empty$ -- 601
+format.name$ -- 47
+if$ -- 1504
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 93
-num.names$ -- 43
-pop$ -- 108
+newline$ -- 124
+num.names$ -- 59
+pop$ -- 146
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 133
+skip$ -- 176
 stack$ -- 0
-substring$ -- 131
-swap$ -- 130
-text.length$ -- 6
+substring$ -- 163
+swap$ -- 173
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 30
-width$ -- 17
-write$ -- 229
-(There were 2 warnings)
+warning$ -- 4
+while$ -- 39
+width$ -- 23
+write$ -- 310
+(There were 2 error messages)

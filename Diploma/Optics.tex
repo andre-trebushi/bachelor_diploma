@@ -40,7 +40,7 @@
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{pic/log_spec_1-1.pdf}
-	\caption{Спектр с ондулятора с $K = 2,29$ через апертуру $0,4 \; \textup{мм}$ в логарифмическом масштабе (сверху) и в линейном (снизу) посчитанный в SPECTRA}
+	\caption{Спектр с ондулятора с $K = 2,29$ через апертуру $0,4 \; \textup{мм}$ в логарифмическом масштабе (сверху) и в линейном (снизу) посчитанный в SPECTRA с учётом конечности эмиттанса и энергетического разброса}
 	\label{fig:log_spec_1-1}
 \end{figure}
 
@@ -192,7 +192,7 @@ headers={
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{pic/log_spec_1-2.pdf}
-	\caption{Спектр с ондулятора с $K = 1,54$ через апертуру $0,4 \; \textup{мм}$ в логарифмическом масштабе (сверху) и в линейном (снизу) посчитанный в SPECTRA}
+	\caption{Спектр с ондулятора с $K = 1,54$ через апертуру $0,4 \; \textup{мм}$ в логарифмическом масштабе (сверху) и в линейном (снизу) посчитанный в SPECTRA с учётом конечности эмиттанса и энергетического разброса}
 	\label{fig:log_spec_1-2}
 \end{figure}
 
@@ -353,7 +353,7 @@ headers={
 	\begin{minipage}{0.99\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{pic/log_spec_1-4.pdf}
-		\caption{Спектр с ондулятора с $K = 2.23$ через апертуру $1 \; \textup{мм}$ в логарифмическом масштабе (сверху) и в линейном (снизу) посчитанный в SPECTRA}
+		\caption{Спектр с ондулятора с $K = 2.23$ через апертуру $1 \; \textup{мм}$ в логарифмическом масштабе (сверху) и в линейном (снизу) посчитанный в SPECTRA с учётом конечности эмиттанса и энергетического разброса}
 		\label{fig:section_und_SRW}
 	\end{minipage}    
 \end{figure}
@@ -418,13 +418,13 @@ C =k_w\cfrac{\Delta \omega}{\omega_r} = \cfrac{\Delta \omega_r}{2c\gamma}\bigg(1
 	\begin{minipage}{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{pic/spec_from_sec_und.pdf}
-		\caption{Аналитический результат}
+		\caption{Аналитический результат для электронного пучка с бесконечно малым эмиттансом}
 		\label{fig:section_und_analitics}
 	\end{minipage}\hfill
 	\begin{minipage}{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{pic/sim_und_spec.pdf}
-		\caption{Симуляция в коде SRW}
+		\caption{Симуляция в коде SRW для электронного пучка с бесконечно малым эмиттансом}
 		\label{fig:section_und_SRW}
 	\end{minipage}    
 \end{figure}
@@ -432,11 +432,10 @@ C =k_w\cfrac{\Delta \omega}{\omega_r} = \cfrac{\Delta \omega_r}{2c\gamma}\bigg(1
 \begin{figure}[h!]
 	\centering  
 	\includegraphics[width=\textwidth]{pic/sim_und_spec_new_mm.pdf}
-	\caption{Спектр секционного ондулятора проинтегрированного по конечной апертуре --- $1 \; \textup{мм}$}
+	\caption{Спектр секционного ондулятора проинтегрированного по конечной апертуре --- $1 \; \textup{мм}$ с учётом конечности эмиттанса и энергетического разброса}
 	\label{fig:sim_und_spec_new_mm}  
 \end{figure}
 
-\subsection{Излучение ондулятора с линейно меняющимся магнитным полем вдоль ондулятора}
 
 \subsection{Оптика станции 1-4}
 
@@ -446,7 +445,6 @@ C =k_w\cfrac{\Delta \omega}{\omega_r} = \cfrac{\Delta \omega_r}{2c\gamma}\bigg(1
 	\begin{minipage}{0.99\textwidth}
 	\centering  
 	\includegraphics[width=\textwidth]{pic/OptScheme_1-4.pdf}
-	\caption{Оптическая схема станции 1-4}
 	\label{fig:OptScheme_1-4}  
 	\end{minipage}\hfill
 
@@ -468,4 +466,5 @@ C =k_w\cfrac{\Delta \omega}{\omega_r} = \cfrac{\Delta \omega_r}{2c\gamma}\bigg(1
 		\caption{Сечение пучка около фокуса зеркал}
 		\label{fig:3_harm_after_Sph_Mir_2d}
 	\end{minipage} 
+	\caption{Оптическая схема станции 1-4}
 \end{figure}
