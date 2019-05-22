@@ -1,11 +1,10 @@
-\documentclass[14pt, hyperref = {colorlinks}]{beamer}
+\documentclass[14pt, hyperref = {colorlinks},xcolor=table ]{beamer}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage[colorlinks]{hyperref}
 \usepackage{amssymb,amsfonts,amsmath,mathtext}
 \usepackage{cite,enumerate,float,indentfirst}
-
 
 \usepackage{xmpmulti}
 \usepackage{gensymb} % для обозачения град
@@ -25,7 +24,7 @@
 \usecolortheme{seahorse}
 %\usefonttheme[onlymath]{serif}
 
-\setbeamercolor{footline}{fg=blue}
+\setbeamercolor{footline}{fg=black}
 \setbeamertemplate{footline}{
 	\leavevmode%
 	\hbox{%
@@ -33,7 +32,7 @@
 			А.Е. Требушинин
 		\end{beamercolorbox}%
 		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
-			Новосибирск, 2019
+			23.05.2019
 		\end{beamercolorbox}%
 		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{}%
 			Стр. \insertframenumber{} из \inserttotalframenumber \hspace*{2ex}
@@ -81,7 +80,8 @@
 \begin{frame}
 \frametitle{Цель}\label{t1}
 \begin{center}
-	\large{Создание проекта экспериментальных стаций первой очереди ЦКП <<СКИФ>>}
+	\large{Создание проекта станций первой очереди Центра Коллективного Пользования\\
+	<<Сибирский Кольцевой Источник Фотонов>>}
 \end{center}
 \end{frame}
 
@@ -126,7 +126,7 @@
 \begin{itemize}
 	\item Моделирование \textbf{вставных устройств} \\(ондуляторы)
   	\item Оптимизация \textbf{оптических элементов} \\(апертуры, монохроматоры, фокусирующие зеркала)
-  	\item Создание \textbf{программной среды} для обмена расчётами
+  	\item Создание \textbf{программной среды} по обмену расчётами
 	\item Координация взаимодействия между исследовательскими группами разных институтов (ИЯФ СО РАН, ИК СО РАН, ИГиЛ СО РАН, ИГМ СО РАН)
 \end{itemize}
 \end{center}
@@ -140,8 +140,8 @@
 \begin{center}
 		\begin{itemize}
 		\item Схема работы <<Оптической группы>> ЦКП СКИФ
-		\item Принципиальные основы кода SRW для расчёта синхротронного излучения
-		\item Расчёт оптических схем станции 1-1, 1-2
+		\item Принципиальные основы кода $SRW$ для расчёта синхротронного излучения
+		\item Расчёт оптических схем станций 1-1, 1-2
 		\item Расчёт оптики станции 1-4. Расчёт ондулятора с корректирующими катушками для станции 1-4
 	\end{itemize}
 \end{center}
@@ -178,13 +178,12 @@
 	\center{\includegraphics[width=0.8\linewidth]{pic/optgr.pdf}}
 \end{figure}
 \tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
-\end{frame}
+ \end{frame}
 
 \small
 \begin{frame}
-\frametitle{SRW. Среда моделирования}\label{t1}
-SRW --- Synchrotron Radiation Workshop. Код для моделирования излучения релятивистского электронного пучка и оптических систем.
-$\mathnormal{r\omega}$-пространство, ближняя зона.\\
+\frametitle{$SRW$ --- Среда моделирования}\label{t1}
+$SRW$ --- Synchrotron Radiation Workshop. Код для моделирования излучения релятивистского электронного пучка и прохождения излучения через рентгеновскую оптическую систему.
 \begin{itemize}
 	\item Подсчёт электрического поля:\\
 \end{itemize}
@@ -306,35 +305,36 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \fi
 
 \begin{frame}
-\frametitle{Расчёт станции 1-1. Тепловые нагрузки}\label{t1}
+\frametitle{Расчёт станции 1-1}\label{t1}
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
-		\tiny
+		\scriptsize
 		\vspace{-15pt}
 		\begin{table}[h]
 			\begin{tabular}{c|c}
 				\hline\hline
-				\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.36(2.29)}$   \\ \hline
-				\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2.3}$          \\ \hline
-				\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{18}$    		\\ \hline
-				%\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
-				\rule{0pt}{3ex}Гармоники	              & $\mathnormal{11, 13, 17, 23}$  \\
+				\rule{0pt}{3ex}$\textup{B, [Тл]}$     & $\textup{1.36}$   \\ \hline
+				\rule{0pt}{3ex}$\textup{d, [мм]}$     & $\textup{18}$    		\\ \hline
+				\rule{0pt}{3ex}\cellcolor{blue!25}$\textup{K}$     	  & \cellcolor{blue!25}$\textup{2.29}$    		\\ \hline
+				\rule{0pt}{3ex}$\textup{L, [м]}$ 	  & $\textup{2.3}$          \\ \hline
+				\rule{0pt}{3ex}Гармоники	          & $\textup{11, 13, 17, 23}$  \\
 				\hline\hline
 			\end{tabular}
 		\end{table}
 	\vspace{-25pt}
-	\tiny\center{Ондулятор}
+	\tiny\center{Сверхпроводящий ондулятор}
 	\end{minipage}
 	\begin{minipage}[h]{0.49\linewidth}
-		\vspace{-15pt}
-		\raggedleft{\includegraphics[width=0.9\linewidth]{pic/A_K.pdf}}
-		\vspace{-15pt}
-		\tiny\center{Амплитудный спектр}
+		\vspace{-25pt}
+		\raggedleft{\includegraphics[width=0.99\linewidth]{pic/A_K.pdf}}
+		\vspace{-25pt}
+		\tiny\center{Амплитудный спектр гармоник}
 	\end{minipage}
 \end{figure}
 \begin{figure}[h]
-	\vspace{-30pt}
-	\center{\includegraphics[width=0.99\linewidth]{pic/log_spec_1-1.pdf}}
+	\vspace{-20pt}
+	\center{\includegraphics[trim=1.5cm 0.5cm 1.5cm 1.5cm, clip=true,width=0.99\linewidth]{pic/log_spec_1-1.pdf}}
+	\tiny\raggedright{Спектр проинтегрированный по апертуре $0.4 \; \textup{мм}$ на расстоянии $25$ м}		
 \end{figure}
 
 %\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
@@ -361,7 +361,7 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 
 \small
 \begin{frame}
-\frametitle{Оптическая схема станции 1-1}\label{t1}
+\frametitle{Оптическая схема станции 1-1. Тепловые нагрузки}\label{t1}
 \vspace{-20pt}
 \begin{figure}[h]
 	\center{\includegraphics[width=0.8\linewidth]{pic/OptScheme_1-1.pdf}}
@@ -375,61 +375,44 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \end{frame}
 
 \begin{frame}
-\frametitle{Расчёт станции 1-2. Тепловые нагрузки}\label{t1}
+\frametitle{Расчёт станции 1-2}\label{t1}
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
-		\tiny
+		\scriptsize
 		\vspace{-15pt}
 		\begin{table}[h]
 			\begin{tabular}{c|c}
 				\hline\hline
-				\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.06(1.53)}$   \\ \hline
-				\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2}$          \\ \hline
-				\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{15,6}$    		\\ \hline
-				%\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
-				\rule{0pt}{3ex}Гармоники	              & $\mathnormal{5, 7, 9, 13}$  \\
+				\rule{0pt}{3ex}$\textup{B, [Tл]}$   & $\textup{1.06}$   \\ \hline
+				\rule{0pt}{3ex}$\textup{d, [мм]}$     & $\textup{15.6}$    		\\ \hline
+				\rule{0pt}{3ex}\cellcolor{blue!25}$\textup{K}$     	  & \cellcolor{blue!25}$\textup{1.53}$    		\\ \hline
+				\rule{0pt}{3ex}$\textup{L, [м]}$ 	  & $\textup{2}$          \\ \hline
+				\rule{0pt}{3ex}Гармоники	          & $\textup{5, 7, 9, 13}$  \\
 				\hline\hline
 			\end{tabular}
 		\end{table}
 		\vspace{-25pt}
-		\tiny\center{Ондулятор}
+		\tiny\center{Сверхпроводящий ондулятор}
 	\end{minipage}
 	\begin{minipage}[h]{0.49\linewidth}
-		\vspace{-15pt}
-		\raggedleft{\includegraphics[width=0.9\linewidth]{pic/A_K.pdf}}
-		\vspace{-15pt}
-		\tiny\center{Амплитудный спектр}
-	\end{minipage}
+	\vspace{-25pt}
+	\raggedleft{\includegraphics[width=0.99\linewidth]{pic/A_K.pdf}}
+	\vspace{-25pt}
+	\tiny\center{Амплитудный спектр гармоник}
+\end{minipage}
 \end{figure}
 \begin{figure}[h]
-	\vspace{-30pt}
-	\center{\includegraphics[width=0.99\linewidth]{pic/log_spec_1-2.pdf}}
+	\vspace{-20pt}
+	\center{\includegraphics[trim=1.5cm 0.5cm 1.5cm 1.5cm, clip=true,width=0.99\linewidth]{pic/log_spec_1-2.pdf}}
+	\tiny\raggedright{Спектр проинтегрированный по апертуре $0.4 \; \textup{мм}$ на расстоянии $25$ м}
 \end{figure}
 
 %\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
 \end{frame}
 
-\iffalse
-\begin{minipage}[h]{0.24\linewidth}
-%\vspace{-90pt}	
-\tiny
-\begin{table}[h]
-	\begin{tabular}{c|c}
-		\hline\hline
-		\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.36(2.29)}$   \\ \hline
-		\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2.3}$          \\ \hline
-		\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{18}$    		\\ \hline
-		\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
-		\rule{0pt}{3ex}Гармоники	              & $\mathnormal{11, 13, 17, 23}$  \\
-		\hline\hline
-	\end{tabular}
-\end{table}
-\end{minipage}
-\fi
-
 \small
 \begin{frame}
-\frametitle{Оптическая схема станции 1-2}\label{t1}
+\frametitle{Оптическая схема станции 1-2. Тепловые нагрузки}\label{t1}
 \vspace{-20pt}
 \begin{figure}[h]
 \center{\includegraphics[width=0.8\linewidth]{pic/OptScheme_1-2.pdf}}
@@ -443,35 +426,36 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \end{frame}
 
 \begin{frame}
-\frametitle{Расчёт оптики станции 1-4 (XAS-спектроскопия)}\label{t1}
+\frametitle{Расчёт оптики станции 1-4. XAS-спектроскопия}\label{t1}
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
-		\tiny
+		\scriptsize
 		\vspace{-15pt}
 		\begin{table}[h]
 			\begin{tabular}{c|c}
 				\hline\hline
-				\rule{0pt}{3ex}$\mathnormal{B(K), [T]}$   & $\mathnormal{1.06(1.53)}$   \\ \hline
-				\rule{0pt}{3ex}$\mathnormal{L, [m]}$ 	  & $\mathnormal{2}$          \\ \hline
-				\rule{0pt}{3ex}$\mathnormal{d, [mm]}$     & $\mathnormal{15,6}$    		\\ \hline
-				%\rule{0pt}{3ex}Фазовая ошибка             &$ \mathnormal{\leq 3^{\circ}}$  \\ \hline
-				\rule{0pt}{3ex}Гармоники	              & $\mathnormal{5, 7, 9, 13}$  \\
+				\rule{0pt}{3ex}$\textup{B(K)}, [\textup{Тл}]$   & $\textup{0.65 - 1.35}$   \\ \hline
+				\rule{0pt}{3ex}$\textup{d}, [\textup{мм}]$      & $\textup{18}$    		\\ \hline
+				\rule{0pt}{3ex}\cellcolor{blue!25}$\textup{K}$  & \cellcolor{blue!25}$\textup{1.1 - 2.3}$    		\\ \hline
+				\rule{0pt}{3ex}$\textup{L}, [\textup{м}]$ 	    & $\textup{2.3}$          \\ \hline
+				\rule{0pt}{3ex}Гармоники	             		& $\textup{3 - 13}$  \\
 				\hline\hline
 			\end{tabular}
 		\end{table}
 		\vspace{-25pt}
-		\tiny\center{Ондулятор}
+		\tiny\center{Сверхпроводящий ондулятор}
 	\end{minipage}
 	\begin{minipage}[h]{0.49\linewidth}
-		\vspace{-10pt}
-		\raggedleft{\includegraphics[width=0.9\linewidth]{pic/F.pdf}}
-		\vspace{-15pt}
+		\vspace{-20pt}
+		\raggedleft{\includegraphics[width=0.99\linewidth]{pic/F_A.pdf}}
+		\vspace{-25pt}
 		\tiny\center{Амплитудный спектр}
 	\end{minipage}
 \end{figure}
 \begin{figure}[h]
-	\vspace{-15pt}
-	\center{\includegraphics[width=0.99\linewidth]{pic/log_spec_1-4.pdf}}
+	\vspace{-30pt}
+	\center{\includegraphics[trim=1.5cm 0.5cm 1.5cm 1.5cm, clip=true,width=0.99\linewidth]{pic/log_spec_1-4.pdf}}
+	\tiny\raggedright{Спектр проинтегрированный по апертуре $1 \; \textup{мм}$ на расстоянии $22$ м}
 \end{figure}
 
 %\tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
@@ -484,21 +468,21 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \vspace{-10pt}
 \begin{figure}[h]
 	\center{\includegraphics[width=0.8\linewidth]{pic/OptScheme_1-4.pdf}}
-	\vspace{15pt}	
+	\vspace{10pt}	
 	%Задача: расчёт тепловых нагрузок в первом приближении
 
 	\begin{minipage}[h]{0.32\linewidth}
-		\raggedright{\includegraphics[width=0.79\linewidth]{pic/3_harm_before_optics_2d.pdf}}
+		\raggedright{\includegraphics[width=0.99\linewidth]{pic/3_harm_before_optics_2d.pdf}}
 	\end{minipage}
 	\begin{minipage}[h]{0.32\linewidth}
-		\raggedright{\includegraphics[width=0.79\linewidth]{pic/3_harm_after_DCM_2d.pdf}}
+		\raggedright{\includegraphics[width=0.99\linewidth]{pic/3_harm_after_DCM_2d.pdf}}
 	\end{minipage}
 	\begin{minipage}[h]{0.32\linewidth}
-		\raggedright{\includegraphics[width=0.79\linewidth]{pic/3_harm_after_Sph_Mir_2d.pdf}}
+		\raggedright{\includegraphics[width=0.99\linewidth]{pic/3_harm_after_Sph_Mir_2d.pdf}}
 	\end{minipage}
 \end{figure}
 
-\vspace{25pt}	
+\vspace{0pt}	
 \tiny{\textit{@Andrei Trebushinin ссылка на \href{https://github.com/TrebAndrew/thesis_andrei.git}{GitHub}}}
 \end{frame}
 
@@ -513,16 +497,16 @@ $\mathnormal{r\omega}$-пространство, ближняя зона.\\
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
 		\includegraphics[width=0.99\linewidth]{pic/spec_C.pdf}\\
-		\tiny{$\mathnormal{\hat{C} = CL_u = 2\pi N_u\cfrac{\Delta\omega}{\omega_r}}$}
+		\tiny{$\mathnormal{\hat{C} = CL_u = 2\pi N_u\cfrac{\Delta\omega}{\omega_r}}$, $\mathnormal{N_u}$ --- количество периодов}
 	\end{minipage}	
 	\begin{minipage}[h]{0.49\linewidth}
+		\vspace{-25pt}
 		\begin{itemize}
-			\item {Широкий спектр для Quick-XAFS  спектроскопии $\mathnormal{\approx 1}$ $\mathnormal{keV}$}
-			\item {$\mathnormal{\cfrac{\Delta \omega}{\omega_{ph}} = \cfrac{\Delta \lambda}{\lambda_{ph}} \sim \cfrac{1}{nL_u}}$}
+			\item {Широкий спектр $\approx \textup{1 кэВ}$}
+			\item {$\mathnormal{\cfrac{\Delta E}{E_{ph}} \sim \cfrac{1}{nN_u} \sim 10^{-2}}$}
 		\end{itemize}
 	\end{minipage}
 \end{figure}
-
 \end{frame}
 
 \small
@@ -548,8 +532,8 @@ $\mathnormal{{\widetilde{I}} =
 
 \small
 \begin{frame}
-\frametitle{Моделирование SRW}\label{t1}
-\vspace{-29pt}
+\frametitle{Моделирование в $SRW$}\label{t1}
+\vspace{-21pt}
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
 		\center{Предсказание}
@@ -557,15 +541,16 @@ $\mathnormal{{\widetilde{I}} =
 		\center{\includegraphics[width=0.99\linewidth]{pic/spec_sinc.pdf}}
 	\end{minipage}	
 	\begin{minipage}[h]{0.49\linewidth}
-		\center{Симуляция SRW}
-		\vspace{-10pt}
-		\center{\includegraphics[width=1.035\linewidth]{pic/sim_und_spec.pdf}}
+		\center{Симуляция $SRW^*$}
+		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec.pdf}}
 	\end{minipage}
 \end{figure}
-\vspace{-30pt}
+\vspace{-40pt}
 \begin{figure}[h]
-	\center{\includegraphics[width=0.7\linewidth]{pic/und.pdf}}
+	\center{\includegraphics[width=0.85\linewidth]{pic/und.pdf}}
 \end{figure}
+\vspace{10pt}
+\tiny{$^*$Спектр излучения для электронного пучка с бесконечно малым эмиттансом}
 \end{frame}
 
 \small
@@ -579,19 +564,18 @@ $\mathnormal{{\widetilde{I}} =
 		\center{\includegraphics[width=0.99\linewidth]{pic/spec_from_sec_und.pdf}}
 	\end{minipage}	
 	\begin{minipage}[h]{0.49\linewidth}
-		\center{Симуляция SRW}
-		\vspace{-10pt}
-		\center{\includegraphics[width=1.035\linewidth]{pic/sim_und_spec.pdf}}
+		\center{Симуляция $SRW$}
+		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec.pdf}}
 	\end{minipage}
 \end{figure}
 \vspace{-20pt}
 \begin{figure}[h]
 	$\mathnormal{{\widetilde{I}} =
-		\bigg(\cfrac{\omega eA_{JJ}}{2c^2 \gamma z_0}\bigg)^2\bigg[
-		\textcolor{gray}{\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2\sinc^2(\hat{C_n}) + }}$\\
+	\textcolor{gray}{\bigg(\cfrac{\omega eA_{JJ}}{2c^2 \gamma z_0}\bigg)^2\bigg[
+	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C_n}) \; + }}$\\
 	
-	$\mathnormal{\displaystyle\mathop{\sum\limits_{n, m =-2}^{2}}_{n \neq m}K^2_0\bigg(1 + n\cfrac{\Delta K}{K_0} + m\cfrac{\Delta K}{K_0}\bigg)
-	\textcolor{violet}{\sinc^2(\hat{C_n})e^{i(n-m)\hat{C}_0 + (n^2 - m^2)\Delta \hat{C}}}\bigg]}$
+	$\textcolor{violet}{\mathnormal{\displaystyle\mathop{\sum\limits_{n, m =-2}^{2}}_{n \neq m}K^2_0\bigg(1 + n\cfrac{\Delta K}{K_0} + m\cfrac{\Delta K}{K_0}\bigg)
+	sinc^2(\hat{C_n})e^{i(n-m)\hat{C}_0 + (n^2 - m^2)\Delta \hat{C}}\bigg]}}$
 \end{figure}
 \end{frame}
 
@@ -600,9 +584,9 @@ $\mathnormal{{\widetilde{I}} =
 \frametitle{Планы}\label{t1}
 \begin{center}
 	\begin{itemize}
-		\item Дальнейшее детальное моделирование оптических схем
-		\item Принятие решения по концепции ондулятора станции 1-4
-		\item Моделирование магнитных полей ондуляторов	
+		\item Детальное моделирование оптических элементов
+		\item Моделирование магнитных полей сверхпроводящих ондуляторов	
+		\item Принятие решения по ондулятору для станции 1-4
 	\end{itemize}
 \end{center}
 {\textit{\href{https://github.com/TrebAndrew/thesis_andrei.git}{Здесь} можно следить за работой оптической группы}}\\
@@ -610,11 +594,7 @@ $\mathnormal{{\widetilde{I}} =
 {\textit{Моя почта: $trebandrej@gmail.com$}}\\
 \end{frame}
 
-\begin{frame}
-\begin{center}
-	\textbf{Благодарю за внимание}
-\end{center}
-\end{frame}
+\maketitle
 
 
 \begin{frame}
@@ -774,6 +754,27 @@ $\mathnormal{{\widetilde{I}} =
 	\end{minipage}	
 \end{figure}
 \end{frame}
+
+\small
+\begin{frame}
+	\begin{figure}[h]
+		\vspace{-10pt}
+		\center\includegraphics[width=0.7\linewidth]{pic/power_dens_1-1.pdf}
+		\vspace{-20pt}
+		\tiny\center{Плотность мощности. Станция 1-1}
+	\end{figure}
+\end{frame}
+
+\small
+\begin{frame}
+	\begin{figure}[h]
+		\vspace{-10pt}
+		\center\includegraphics[width=0.7\linewidth]{pic/power_dens_1-2.pdf}
+		\vspace{-20pt}
+		\tiny\center{Плотность мощности. Станция 1-2}
+	\end{figure}
+\end{frame}
+
 
 
 \end{document}
