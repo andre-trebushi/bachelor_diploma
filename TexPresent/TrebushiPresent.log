@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  22 MAY 2019 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  22 MAY 2019 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2407,35 +2407,35 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pic/3_harm_after_Sph_Mir_2d.pdf): PDF
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.510 \end{frame}
-                  <pic/und.pdf, id=1102, 722.7pt x 154.5775pt>
-File: pic/und.pdf Graphic file (type pdf)
-
-<use pic/und.pdf>
-Package pdftex.def Info: pic/und.pdf used on input line 510.
-(pdftex.def)             Requested size: 333.38805pt x 71.30698pt.
- <pic/spec_C.pdf, id=1103, 433.62pt x 325.215pt>
+l.509 \end{frame}
+                  <pic/spec_C.pdf, id=1102, 433.62pt x 325.215pt>
 File: pic/spec_C.pdf Graphic file (type pdf)
 
 <use pic/spec_C.pdf>
-Package pdftex.def Info: pic/spec_C.pdf used on input line 510.
+Package pdftex.def Info: pic/spec_C.pdf used on input line 509.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
+ <pic/und.pdf, id=1103, 722.7pt x 154.5775pt>
+File: pic/und.pdf Graphic file (type pdf)
+
+<use pic/und.pdf>
+Package pdftex.def Info: pic/und.pdf used on input line 509.
+(pdftex.def)             Requested size: 333.38805pt x 71.30698pt.
  [14
 
- <./pic/und.pdf> <./pic/spec_C.pdf
+ <./pic/spec_C.pdf> <./pic/und.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./pic/spec_C.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./pic/und.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
 >]pdfTeX warning (ext4): destination with the same identifier (name{t1}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.531 \end{frame}
+l.530 \end{frame}
                   <pic/spec_sinc.pdf, id=1164, 375.804pt x 281.85298pt>
 File: pic/spec_sinc.pdf Graphic file (type pdf)
 
 <use pic/spec_sinc.pdf>
-Package pdftex.def Info: pic/spec_sinc.pdf used on input line 531.
+Package pdftex.def Info: pic/spec_sinc.pdf used on input line 530.
 (pdftex.def)             Requested size: 163.36195pt x 122.52335pt.
  [15
 
@@ -2443,22 +2443,22 @@ Package pdftex.def Info: pic/spec_sinc.pdf used on input line 531.
 ier (name{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.554 \end{frame}
+l.553 \end{frame}
                  
 File: pic/spec_sinc.pdf Graphic file (type pdf)
  <use pic/spec_sinc.pdf>
-Package pdftex.def Info: pic/spec_sinc.pdf used on input line 554.
+Package pdftex.def Info: pic/spec_sinc.pdf used on input line 553.
 (pdftex.def)             Requested size: 163.36195pt x 122.52335pt.
 
 <pic/sim_und_spec.pdf, id=1213, 516.00781pt x 368.57701pt>
 File: pic/sim_und_spec.pdf Graphic file (type pdf)
 
 <use pic/sim_und_spec.pdf>
-Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 554.
+Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 553.
 (pdftex.def)             Requested size: 163.36195pt x 116.68726pt.
 File: pic/und.pdf Graphic file (type pdf)
  <use pic/und.pdf>
-Package pdftex.def Info: pic/und.pdf used on input line 554.
+Package pdftex.def Info: pic/und.pdf used on input line 553.
 (pdftex.def)             Requested size: 286.24272pt x 61.22371pt.
  [16
 
@@ -2466,20 +2466,20 @@ Package pdftex.def Info: pic/und.pdf used on input line 554.
 tifier (name{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.580 \end{frame}
+l.579 \end{frame}
                  
 <pic/spec_from_sec_und.pdf, id=1270, 375.804pt x 281.85298pt>
 File: pic/spec_from_sec_und.pdf Graphic file (type pdf)
 
 <use pic/spec_from_sec_und.pdf>
-Package pdftex.def Info: pic/spec_from_sec_und.pdf used on input line 580.
+Package pdftex.def Info: pic/spec_from_sec_und.pdf used on input line 579.
 (pdftex.def)             Requested size: 163.36195pt x 122.52335pt.
 File: pic/sim_und_spec.pdf Graphic file (type pdf)
  <use pic/sim_und_spec.pdf>
-Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 580.
+Package pdftex.def Info: pic/sim_und_spec.pdf used on input line 579.
 (pdftex.def)             Requested size: 163.36195pt x 116.68726pt.
 
-Overfull \vbox (2.70016pt too high) detected at line 580
+Overfull \vbox (2.70016pt too high) detected at line 579
  []
 
 [17
@@ -2488,17 +2488,17 @@ Overfull \vbox (2.70016pt too high) detected at line 580
  identifier (name{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.595 \end{frame}
+l.594 \end{frame}
                   [18
 
 ]
 File: pic/logo.jpg Graphic file (type jpg)
  <use pic/logo.jpg>
-Package pdftex.def Info: pic/logo.jpg used on input line 597.
+Package pdftex.def Info: pic/logo.jpg used on input line 596.
 (pdftex.def)             Requested size: 33.67743pt x 40.33301pt.
 File: pic/SKIFlogo.png Graphic file (type png)
  <use pic/SKIFlogo.png>
-Package pdftex.def Info: pic/SKIFlogo.png used on input line 597.
+Package pdftex.def Info: pic/SKIFlogo.png used on input line 596.
 (pdftex.def)             Requested size: 67.34972pt x 26.97581pt.
  [19
 
@@ -2508,7 +2508,7 @@ Package pdftex.def Info: pic/SKIFlogo.png used on input line 597.
 <pic/map.png, id=1402, 2557.555pt x 1333.98375pt>
 File: pic/map.png Graphic file (type png)
  <use pic/map.png>
-Package pdftex.def Info: pic/map.png used on input line 614.
+Package pdftex.def Info: pic/map.png used on input line 613.
 (pdftex.def)             Requested size: 336.75374pt x 175.64265pt.
  [21
 
@@ -2516,9 +2516,9 @@ Package pdftex.def Info: pic/map.png used on input line 614.
 ame{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.631 \end{frame}
+l.630 \end{frame}
                  
-Overfull \hbox (4.46927pt too wide) in paragraph at lines 631--631
+Overfull \hbox (4.46927pt too wide) in paragraph at lines 630--630
  [] 
  []
 
@@ -2528,19 +2528,19 @@ Overfull \hbox (4.46927pt too wide) in paragraph at lines 631--631
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.649 \end{frame}
+l.648 \end{frame}
                   <pic/angleC_neg.pdf, id=1456, 435.71346pt x 312.3168pt>
 File: pic/angleC_neg.pdf Graphic file (type pdf)
 
 <use pic/angleC_neg.pdf>
-Package pdftex.def Info: pic/angleC_neg.pdf used on input line 649.
+Package pdftex.def Info: pic/angleC_neg.pdf used on input line 648.
 (pdftex.def)             Requested size: 163.36195pt x 117.09468pt.
 
 <pic/angleC_pos.pdf, id=1457, 426.3773pt x 312.3168pt>
 File: pic/angleC_pos.pdf Graphic file (type pdf)
 
 <use pic/angleC_pos.pdf>
-Package pdftex.def Info: pic/angleC_pos.pdf used on input line 649.
+Package pdftex.def Info: pic/angleC_pos.pdf used on input line 648.
 (pdftex.def)             Requested size: 163.36195pt x 119.65855pt.
  [23
 
@@ -2552,12 +2552,12 @@ ultiple pdfs with page group included in a single page
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.660 \end{frame}
+l.659 \end{frame}
                   <pic/spec_integ_ang.pdf, id=1536, 578.16pt x 325.215pt>
 File: pic/spec_integ_ang.pdf Graphic file (type pdf)
 
 <use pic/spec_integ_ang.pdf>
-Package pdftex.def Info: pic/spec_integ_ang.pdf used on input line 660.
+Package pdftex.def Info: pic/spec_integ_ang.pdf used on input line 659.
 (pdftex.def)             Requested size: 330.05598pt x 185.65236pt.
  [24
 
@@ -2565,20 +2565,20 @@ Package pdftex.def Info: pic/spec_integ_ang.pdf used on input line 660.
 entifier (name{t1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.679 \end{frame}
+l.678 \end{frame}
                  
 <pic/spec_integ_emittance.pdf, id=1588, 433.62pt x 325.215pt>
 File: pic/spec_integ_emittance.pdf Graphic file (type pdf)
 
 <use pic/spec_integ_emittance.pdf>
-Package pdftex.def Info: pic/spec_integ_emittance.pdf used on input line 679.
+Package pdftex.def Info: pic/spec_integ_emittance.pdf used on input line 678.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
 
 <pic/angle_integ_emittance.pdf, id=1589, 426.3773pt x 312.73212pt>
 File: pic/angle_integ_emittance.pdf Graphic file (type pdf)
 
 <use pic/angle_integ_emittance.pdf>
-Package pdftex.def Info: pic/angle_integ_emittance.pdf used on input line 679.
+Package pdftex.def Info: pic/angle_integ_emittance.pdf used on input line 678.
 (pdftex.def)             Requested size: 163.36195pt x 119.81767pt.
  [25
 
@@ -2590,31 +2590,31 @@ nclusion: multiple pdfs with page group included in a single page
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.701 \end{frame}
+l.700 \end{frame}
                   <pic/spec_und_1-1.pdf, id=1664, 462.52802pt x 346.89601pt>
 File: pic/spec_und_1-1.pdf Graphic file (type pdf)
 
 <use pic/spec_und_1-1.pdf>
-Package pdftex.def Info: pic/spec_und_1-1.pdf used on input line 701.
+Package pdftex.def Info: pic/spec_und_1-1.pdf used on input line 700.
 (pdftex.def)             Requested size: 148.50903pt x 111.3795pt.
 
 <pic/spec_und_1-2.pdf, id=1665, 462.52802pt x 346.89601pt>
 File: pic/spec_und_1-2.pdf Graphic file (type pdf)
 
 <use pic/spec_und_1-2.pdf>
-Package pdftex.def Info: pic/spec_und_1-2.pdf used on input line 701.
+Package pdftex.def Info: pic/spec_und_1-2.pdf used on input line 700.
 (pdftex.def)             Requested size: 148.50903pt x 111.3795pt.
 File: pic/A_K.pdf Graphic file (type pdf)
  <use pic/A_K.pdf>
-Package pdftex.def Info: pic/A_K.pdf used on input line 701.
+Package pdftex.def Info: pic/A_K.pdf used on input line 700.
 (pdftex.def)             Requested size: 181.51329pt x 113.4454pt.
 
-Overfull \hbox (6.50212pt too wide) in paragraph at lines 701--701
+Overfull \hbox (6.50212pt too wide) in paragraph at lines 700--700
 [] [] 
  []
 
 
-Overfull \vbox (13.11665pt too high) detected at line 701
+Overfull \vbox (13.11665pt too high) detected at line 700
  []
 
 [26
@@ -2627,19 +2627,19 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pic/spec_und_1-2.pdf): PDF inclusion:
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.722 \end{frame}
+l.721 \end{frame}
                   <pic/emmiter_traj.pdf, id=1812, 433.62pt x 289.08pt>
 File: pic/emmiter_traj.pdf Graphic file (type pdf)
 
 <use pic/emmiter_traj.pdf>
-Package pdftex.def Info: pic/emmiter_traj.pdf used on input line 722.
+Package pdftex.def Info: pic/emmiter_traj.pdf used on input line 721.
 (pdftex.def)             Requested size: 163.36195pt x 108.90758pt.
 
 <pic/emmiter_traj_ang.pdf, id=1813, 433.62pt x 289.08pt>
 File: pic/emmiter_traj_ang.pdf Graphic file (type pdf)
 
 <use pic/emmiter_traj_ang.pdf>
-Package pdftex.def Info: pic/emmiter_traj_ang.pdf used on input line 722.
+Package pdftex.def Info: pic/emmiter_traj_ang.pdf used on input line 721.
 (pdftex.def)             Requested size: 163.36195pt x 108.90758pt.
  [27
 
@@ -2651,19 +2651,19 @@ ion: multiple pdfs with page group included in a single page
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.737 \end{frame}
+l.736 \end{frame}
                   <pic/Diamond_bragg_R.pdf, id=1925, 433.62pt x 325.215pt>
 File: pic/Diamond_bragg_R.pdf Graphic file (type pdf)
 
 <use pic/Diamond_bragg_R.pdf>
-Package pdftex.def Info: pic/Diamond_bragg_R.pdf used on input line 737.
+Package pdftex.def Info: pic/Diamond_bragg_R.pdf used on input line 736.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
 
 <pic/Silicon_bragg_R.pdf, id=1926, 433.62pt x 325.215pt>
 File: pic/Silicon_bragg_R.pdf Graphic file (type pdf)
 
 <use pic/Silicon_bragg_R.pdf>
-Package pdftex.def Info: pic/Silicon_bragg_R.pdf used on input line 737.
+Package pdftex.def Info: pic/Silicon_bragg_R.pdf used on input line 736.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
  [28
 
@@ -2675,18 +2675,18 @@ on: multiple pdfs with page group included in a single page
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.756 \end{frame}
+l.755 \end{frame}
                   <pic/bragg_T_1-1.pdf, id=2055, 433.62pt x 325.215pt>
 File: pic/bragg_T_1-1.pdf Graphic file (type pdf)
 
 <use pic/bragg_T_1-1.pdf>
-Package pdftex.def Info: pic/bragg_T_1-1.pdf used on input line 756.
+Package pdftex.def Info: pic/bragg_T_1-1.pdf used on input line 755.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
  <pic/bragg_T_1-2.pdf, id=2056, 433.62pt x 325.215pt>
 File: pic/bragg_T_1-2.pdf Graphic file (type pdf)
 
 <use pic/bragg_T_1-2.pdf>
-Package pdftex.def Info: pic/bragg_T_1-2.pdf used on input line 756.
+Package pdftex.def Info: pic/bragg_T_1-2.pdf used on input line 755.
 (pdftex.def)             Requested size: 163.36195pt x 122.52103pt.
  [29
 
@@ -2698,7 +2698,7 @@ multiple pdfs with page group included in a single page
 File: pic/power_dens_1-1.pdf Graphic file (type pdf)
 
 <use pic/power_dens_1-1.pdf>
-Package pdftex.def Info: pic/power_dens_1-1.pdf used on input line 766.
+Package pdftex.def Info: pic/power_dens_1-1.pdf used on input line 765.
 (pdftex.def)             Requested size: 235.72658pt x 235.71942pt.
  [30
 
@@ -2707,7 +2707,7 @@ Package pdftex.def Info: pic/power_dens_1-1.pdf used on input line 766.
 File: pic/power_dens_1-2.pdf Graphic file (type pdf)
 
 <use pic/power_dens_1-2.pdf>
-Package pdftex.def Info: pic/power_dens_1-2.pdf used on input line 776.
+Package pdftex.def Info: pic/power_dens_1-2.pdf used on input line 775.
 (pdftex.def)             Requested size: 235.72658pt x 235.71942pt.
  [31
 
@@ -2721,12 +2721,12 @@ Package pdftex.def Info: pic/power_dens_1-2.pdf used on input line 776.
 \tf@snm=\write8
 \openout8 = `TrebushiPresent.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 780.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 780.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 779.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 779.
 
 (./TrebushiPresent.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 780.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 780.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 779.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 779.
 Package rerunfilecheck Info: File `TrebushiPresent.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2737,7 +2737,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 780.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 779.
  ) 
 Here is how much of TeX's memory you used:
  18893 strings out of 493029
@@ -2768,7 +2768,7 @@ e/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss
 1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2074.pfb></usr/share
 /texmf/fonts/type1/public/cm-super/sfsx1200.pfb>
-Output written on TrebushiPresent.pdf (31 pages, 9580390 bytes).
+Output written on TrebushiPresent.pdf (31 pages, 9579318 bytes).
 PDF statistics:
  2436 PDF objects out of 2487 (max. 8388607)
  1455 compressed objects within 15 object streams

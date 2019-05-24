@@ -489,23 +489,22 @@ $SRW$ --- Synchrotron Radiation Workshop. Код для моделировани
 \small
 \begin{frame}
 \frametitle{Ондулятор станции 1-4 (Quick-XAFS)}\label{t1}
-\vspace{-10pt}
 \begin{figure}[h]
-	\raggedright{\includegraphics[width=0.99\linewidth]{pic/und.pdf}}
-\end{figure}
-\vspace{-25pt}
-\begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+	\vspace{-25pt}
+	\begin{itemize}
+		\item {Широкий спектр $\approx \textup{1 кэВ}$}
+		\item {$\mathnormal{\cfrac{\Delta E}{E_{ph}} \sim \cfrac{1}{nN_u} \sim 10^{-2}}$}
+	\end{itemize}
+	\end{minipage}
 	\begin{minipage}[h]{0.49\linewidth}
 		\includegraphics[width=0.99\linewidth]{pic/spec_C.pdf}\\
 		\tiny{$\mathnormal{\hat{C} = CL_u = 2\pi N_u\cfrac{\Delta\omega}{\omega_r}}$, $\mathnormal{N_u}$ --- количество периодов}
 	\end{minipage}	
-	\begin{minipage}[h]{0.49\linewidth}
-		\vspace{-25pt}
-		\begin{itemize}
-			\item {Широкий спектр $\approx \textup{1 кэВ}$}
-			\item {$\mathnormal{\cfrac{\Delta E}{E_{ph}} \sim \cfrac{1}{nN_u} \sim 10^{-2}}$}
-		\end{itemize}
-	\end{minipage}
+\end{figure}
+\vspace{-20pt}
+\begin{figure}[h]
+	\raggedright{\includegraphics[width=0.99\linewidth]{pic/und.pdf}}
 \end{figure}
 \end{frame}
 
@@ -524,7 +523,7 @@ $SRW$ --- Synchrotron Radiation Workshop. Код для моделировани
 \vspace{-15pt}
 \begin{figure}[h]
 $\mathnormal{{\widetilde{I}} =
-	\bigg(\cfrac{\omega eA_{JJ}}{2c^2 \gamma z_0}\bigg)^2\bigg[
+	\bigg(\cfrac{\omega eA_{JJ}L_u}{2c^2 \gamma z_0}\bigg)^2\bigg[
 	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C_n})}\bigg]$\\
 
 \end{figure}
@@ -571,7 +570,7 @@ $\mathnormal{{\widetilde{I}} =
 \vspace{-20pt}
 \begin{figure}[h]
 	$\mathnormal{{\widetilde{I}} =
-	\textcolor{gray}{\bigg(\cfrac{\omega eA_{JJ}}{2c^2 \gamma z_0}\bigg)^2\bigg[
+	\textcolor{gray}{\bigg(\cfrac{\omega eA_{JJ}L_u}{2c^2 \gamma z_0}\bigg)^2\bigg[
 	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C_n}) \; + }}$\\
 	
 	$\textcolor{violet}{\mathnormal{\displaystyle\mathop{\sum\limits_{n, m =-2}^{2}}_{n \neq m}K^2_0\bigg(1 + n\cfrac{\Delta K}{K_0} + m\cfrac{\Delta K}{K_0}\bigg)
