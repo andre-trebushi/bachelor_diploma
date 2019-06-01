@@ -43,30 +43,59 @@ Tech. Rep.: ~/ Klaus~Balewski, R~Rohlsberger, H~Franz et~al.: 2004.
   Specification~// \BibEmph{CCLRC, June}. ---
 \newblock 2002.
 
+\bibitem{SRW}
+\selectlanguageifdefined{english}
+\BibEmph{Chubar~Oleg}. Synchrotron Radiation Workshop. ---
+\newblock \url{https://github.com/ochubar/SRW}.
+
+\bibitem{chubar1998proceedings}
+\selectlanguageifdefined{english}
+\BibEmph{Chubar~O, Elleaume~P}. Proceedings of the 6th European Particle
+  Accelerator Conference, Stockholm, 1998. ---
+\newblock 1998.
+
+\bibitem{chubar1998accurate}
+\selectlanguageifdefined{english}
+\BibEmph{Chubar~Oleg, Elleaume~P}. Accurate and efficient computation of
+  synchrotron radiation in the near field region~// proc. of the EPAC98
+  Conference. ---
+\newblock 1998. ---
+\newblock Pp.~1177--1179.
+
+\bibitem{chubar2002physical}
+\selectlanguageifdefined{english}
+Physical optics computer code optimized for synchrotron radiation~/
+  Oleg~Chubar, Pascal~Elleaume, Serguei~Kuznetsov, Anatoly~A~Snigirev~//
+  Optical Design and Analysis Software II~/ International Society for Optics
+  and Photonics. ---
+\newblock Vol.~4769. ---
+\newblock 2002. ---
+\newblock Pp.~145--152.
+
+\bibitem{chubar2001wavefront}
+\selectlanguageifdefined{english}
+\BibEmph{Chubar~Oleg}. Wavefront calculations~// X-Ray FEL Optics and
+  Instrumentation~/ International Society for Optics and Photonics. ---
+\newblock Vol.~4143. ---
+\newblock 2001. ---
+\newblock Pp.~48--60.
+
+\bibitem{idir2017alignment}
+\selectlanguageifdefined{english}
+Alignment of KB mirrors with at-wavelength metrology tool simulated using SRW~/
+  Mourad~Idir, Maksim~Rakitin, Bo~Gao et~al.~// Advances in Computational
+  Methods for X-Ray Optics IV~/ International Society for Optics and Photonics.
+  ---
+\newblock Vol.~10388. ---
+\newblock 2017. ---
+\newblock P.~103880Z.
+
 \bibitem{geloni2005paraxial}
 \selectlanguageifdefined{english}
 Paraxial Green's functions in synchrotron radiation theory~/ Gianluca~Geloni,
   Evgeni~Saldin, Evgeni~Schneidmiller, Mikhail~Yurkov~// \BibEmph{arXiv
   preprint physics/0502120}. ---
 \newblock 2005.
-
-\bibitem{geloni2007fourier}
-\selectlanguageifdefined{english}
-Fourier treatment of near-field synchrotron radiation theory~/ Gianluca~Geloni,
-  Evgeni~Saldin, Evgeni~Schneidmiller, Mikhail~Yurkov~// \BibEmph{Optics
-  communications}. ---
-\newblock 2007. ---
-\newblock Vol. 276, no.~1. ---
-\newblock Pp.~167--179.
-
-\bibitem{geloni2015brightness}
-\selectlanguageifdefined{english}
-\BibEmph{Geloni~Gianluca, Kocharyan~Vitali, Saldin~Evgeni}. Brightness of
-  synchrotron radiation from undulators and bending magnets~// \BibEmph{Journal
-  of synchrotron radiation}. ---
-\newblock 2015. ---
-\newblock Vol.~22, no.~2. ---
-\newblock Pp.~288--316.
 
 \bibitem{geloni2006fourier}
 \selectlanguageifdefined{english}
@@ -75,16 +104,21 @@ Fourier optics treatment of classical relativistic electrodynamics~/
   \BibEmph{arXiv preprint physics/0608145}. ---
 \newblock 2006.
 
-\bibitem{chubar1998proceedings}
-\selectlanguageifdefined{english}
-\BibEmph{Chubar~O, Elleaume~P}. Proceedings of the 6th European Particle
-  Accelerator Conference, Stockholm, 1998. ---
-\newblock 1998.
-
 \bibitem{wiedemann2015particle}
 \selectlanguageifdefined{english}
 \BibEmph{Wiedemann~Helmut}. Particle accelerator physics. ---
 \newblock Springer, 2015.
+
+\bibitem{SPECTRA}
+\selectlanguageifdefined{english}
+SPECTRA: a synchrotron radiation calculation code. ---
+\newblock \url{http://spectrax.org/spectra/}.
+
+\bibitem{XRayTracer}
+\selectlanguageifdefined{english}
+\BibEmph{Konstantin Klementiev (MAX IV~Laboratory)~Roman Chernikov (Canadian
+  Light~Source)}. XRayTracer. ---
+\newblock \url{https://xrt.readthedocs.io/}.
 
 \bibitem{bragin2018short}
 \selectlanguageifdefined{english}
@@ -107,35 +141,6 @@ Short-Period Superconducting Undulator Coils With Neutral Poles: Test Results~/
 \selectlanguageifdefined{english}
 \BibEmph{Als-Nielsen~Jens, McMorrow~Des}. Elements of modern X-ray physics. ---
 \newblock John Wiley \& Sons, 2011.
-
-\bibitem{serkez2013grating}
-\selectlanguageifdefined{english}
-Grating monochromator for soft X-ray self-seeding the European XFEL~/
-  Svitozar~Serkez, Gianluca~Geloni, Vitali~Kocharyan, Evgeni~Saldin~//
-  \BibEmph{arXiv preprint arXiv:1303.1392}. ---
-\newblock 2013.
-
-\bibitem{serkez2015design}
-\selectlanguageifdefined{english}
-\BibEmph{Serkez~Svitozar}. Design and Optimization of the Grating Monochromator
-  for Soft X-Ray Self-Seeding FELs. ---
-\newblock 2015.
-
-\bibitem{goodman2015statistical}
-\selectlanguageifdefined{english}
-\BibEmph{Goodman~Joseph~W}. Statistical optics. ---
-\newblock John Wiley \& Sons, 2015.
-
-\bibitem{goodman2005introduction}
-\selectlanguageifdefined{english}
-\BibEmph{Goodman~Joseph~W}. Introduction to Fourier optics. ---
-\newblock Roberts and Company Publishers, 2005.
-
-\bibitem{my_github}
-\selectlanguageifdefined{english}
-\BibEmph{Trebushinin~Andrei}. SKIF beamlines. SRW code extension. ---
-\newblock 2019. \BibUrl{ https://github.com/TrebAndrew/thesis_
-  andrei/tree/dev}.
 
 \bibitem{authier2006dynamical}
 \selectlanguageifdefined{english}
