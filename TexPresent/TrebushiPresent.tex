@@ -121,14 +121,15 @@
 \small
 \begin{frame}
 \frametitle{Задачи}\label{t1}
+Расчёт ондуляторных станций 1-1, 1-2 и 1-4.
 \begin{center}
 \begin{itemize}
-	\item Расчёт \textbf{ондуляторного излучения} с помощью численного моделирования \\
-  	\item Аналитическое описание и численный расчёт специального ондулятора с \textbf{уширенными гармониками}\\
+	\item Расчёт \textbf{ондуляторного излучения} с помощью численного моделирования. \\
+  	\item \textbf{Аналитическое описание} и \textbf{численный расчёт} специального ондулятора с \textbf{уширенными гармониками}. \\
   	\item Проектирование оптических трактов:\\
   	 - расчёт \textbf{тепловых нагрузок} на оптические элементы;\\
-  	 - расчёт \textbf{сечений пучка} после оптических элементов
-  	\item Разработка программного \textbf{кода}
+  	 - расчёт \textbf{сечений пучка} после оптических элементов;
+  	\item Разработка программного \textbf{кода}.
 %  	\item Создание \textbf{программной среды} по обмену расчётами
 %	\item Координация взаимодействия между исследовательскими группами разных институтов (ИЯФ СО РАН, ИК СО РАН, ИГиЛ СО РАН, ИГМ СО РАН)
 \end{itemize}
@@ -382,15 +383,15 @@ $SRW$ --- Synchrotron Radiation Workshop. Код для моделировани
 \vspace{-10pt}
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
+	\includegraphics[width=0.99\linewidth]{pic/Spec_1-1.pdf}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
 		\includegraphics[width=0.99\linewidth]{pic/power_dens_1-1_2d.pdf}
 	\end{minipage}	
-	\begin{minipage}[h]{0.49\linewidth}
-		\includegraphics[width=0.99\linewidth]{pic/Spec_1-1.pdf}
-	\end{minipage}
 \end{figure}
 \vspace{-10pt}
 \begin{figure}[h]
-	$W_{\textup{макс}} = 97,5 \; \textup{Вт/мм}^2$ \hspace{20pt} $W = \displaystyle \sum_{\mathnormal{E_i =} \textup{0 кэВ}}^{\textup{60 кэВ}} \mathnormal{I(E_i)\Delta E_i} = 96,8 \; \textup{Вт/мм}^2$
+$W = \displaystyle \sum_{\mathnormal{E_i =} \textup{0 кэВ}}^{\textup{60 кэВ}} \mathnormal{I(E_i)\Delta E_i} = 96,8 \; \textup{Вт/мм}^2$ \hspace{15pt} $W_{\textup{макс}} = 97,5 \; \textup{Вт/мм}^2$ 
 \end{figure}
 \end{frame}
 
@@ -448,6 +449,19 @@ $SRW$ --- Synchrotron Radiation Workshop. Код для моделировани
 
 \small
 \begin{frame}
+\frametitle{Результаты расчёта тепловых нагрузок}\label{t1}
+	\begin{center}
+	\begin{itemize}
+		\item Рассчитаны удельные тепловые нагрузки на каждый оптических элемент.\\
+		\item Приведено двумерное распределение плотности мощности на первый оптических элемент.\\
+		\item Есть возможность оценивать интегральный поток (Вт) на оптический элемент.
+	\end{itemize}
+	\end{center}	
+\end{frame}
+
+\iffalse
+\small
+\begin{frame}
 \frametitle{Второй метод расчёта в коде SRW}\label{t1}
 \vspace{-10pt}
 \begin{figure}[h]
@@ -476,10 +490,17 @@ $SRW$ --- Synchrotron Radiation Workshop. Код для моделировани
 \end{figure}
 
 \end{frame}
+\fi
 
 \begin{frame}
 \frametitle{Расчёт оптики станции 1-4. XAS-спектроскопия}\label{t1}
 \begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\vspace{-20pt}
+		\raggedleft{\includegraphics[width=0.99\linewidth]{pic/F_A.pdf}}
+		\vspace{-25pt}
+		\tiny\center{Перекрытие спектра}
+	\end{minipage}
 	\begin{minipage}[h]{0.49\linewidth}
 		\scriptsize
 		\vspace{-15pt}
@@ -496,12 +517,6 @@ $SRW$ --- Synchrotron Radiation Workshop. Код для моделировани
 		\end{table}
 		\vspace{-25pt}
 		\tiny\center{Сверхпроводящий ондулятор}
-	\end{minipage}
-	\begin{minipage}[h]{0.49\linewidth}
-		\vspace{-20pt}
-		\raggedleft{\includegraphics[width=0.99\linewidth]{pic/F_A.pdf}}
-		\vspace{-25pt}
-		\tiny\center{Амплитудный спектр}
 	\end{minipage}
 \end{figure}
 \begin{figure}[h]
@@ -572,16 +587,17 @@ $SRW$ --- Synchrotron Radiation Workshop. Код для моделировани
 \begin{minipage}[h]{0.49\linewidth}
 	\center{Первое предположение}
 	\vspace{-10pt}
-	\center{\includegraphics[width=0.99\linewidth]{pic/spec_sinc.pdf}}
+	\center{\includegraphics[width=0.99\linewidth]{pic/spec_sinc_percent.pdf}}
 \end{minipage}	
-
 \end{figure}
-\vspace{-15pt}
+
+\vspace{-20pt}
 \begin{figure}[h]
 $\mathnormal{{\widetilde{I}} =
 	\bigg(\cfrac{\omega eA_{JJ}L_u}{2c^2 \gamma z_0}\bigg)^2\bigg[
-	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C_n})}\bigg]$\\
-
+	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C} + n\Delta \hat{C})}\bigg]$\\
+\vspace{10pt}
+$\mathnormal{\hat{C} = 2\pi N_u\cfrac{\Delta\omega}{\omega_r}}$ \hspace{10pt}$\mathnormal{\Delta \hat{C} = 2\pi N_u\cfrac{\Delta\omega}{\omega_r} \cdot \cfrac{\Delta K}{K}}$
 \end{figure}
 \end{frame}
 
@@ -591,14 +607,14 @@ $\mathnormal{{\widetilde{I}} =
 \vspace{-21pt}
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
+		\center{Симуляция $SRW^*$}
+		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec_new.pdf}}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
 		\center{Оценка}
 		\vspace{-10pt}
 		\center{\includegraphics[width=0.99\linewidth]{pic/spec_sinc.pdf}}
 	\end{minipage}	
-	\begin{minipage}[h]{0.49\linewidth}
-		\center{Симуляция $SRW^*$}
-		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec_new.pdf}}
-	\end{minipage}
 \end{figure}
 \vspace{-40pt}
 \begin{figure}[h]
@@ -617,20 +633,47 @@ $\mathnormal{{\widetilde{I}} =
 		\center{Аналитический результат}
 		\vspace{-10pt}
 		\center{\includegraphics[width=0.99\linewidth]{pic/spec_from_sec_und.pdf}}
-	\end{minipage}	
+	\end{minipage}
 	\begin{minipage}[h]{0.49\linewidth}
 		\center{Симуляция $SRW$}
 		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec_new.pdf}}
 	\end{minipage}
+
+\end{figure}
+\vspace{-20pt}
+\begin{figure}[h]
+	$\mathnormal{\vec{\widetilde{E}}_{\bot}(\vec{r}_{0}, \omega) =
+	\cfrac{\omega eA_{JJ} L_s}{2c^2 \gamma}\cfrac{1}{z_0} \times}$
+	\\
+	$\mathnormal{\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)
+	sinc((\hat{C} + n\Delta \hat{C})/2)e^{in({C} + n\Delta {C})L_s}	\vec{e}_x}$
+\end{figure}
+\end{frame}
+
+\small
+\begin{frame}
+\frametitle{Интерференция в спектре}\label{t1}
+\vspace{-5pt}
+\begin{figure}[h]
+	\begin{minipage}[h]{0.49\linewidth}
+		\center{Аналитический результат}
+		\vspace{-10pt}
+		\center{\includegraphics[width=0.99\linewidth]{pic/spec_from_sec_und.pdf}}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\linewidth}
+		\center{Симуляция $SRW$}
+		\center{\includegraphics[width=0.99\linewidth]{pic/sim_und_spec_new.pdf}}
+	\end{minipage}
+	
 \end{figure}
 \vspace{-20pt}
 \begin{figure}[h]
 	$\mathnormal{{\widetilde{I}} =
-	\textcolor{gray}{\bigg(\cfrac{\omega eA_{JJ}L_u}{2c^2 \gamma z_0}\bigg)^2\bigg[
-	\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C_n}) \; + }}$\\
-	
+		\textcolor{gray}{\bigg(\cfrac{\omega eA_{JJ}L_u}{2c^2 \gamma z_0}\bigg)^2\bigg[
+			\displaystyle\sum\limits_{n =-2}^{2}(K_0 + n\Delta K)^2sinc^2(\hat{C} + n\Delta \hat{C}) \; + }}$\\
+	\vspace{5pt}
 	$\textcolor{violet}{\mathnormal{\displaystyle\mathop{\sum\limits_{n, m =-2}^{2}}_{n \neq m}K^2_0\bigg(1 + n\cfrac{\Delta K}{K_0} + m\cfrac{\Delta K}{K_0}\bigg)
-	sinc^2(\hat{C_n})e^{i(n-m)\hat{C}_0 + (n^2 - m^2)\Delta \hat{C}}\bigg]}}$
+			sinc^2(\hat{C} + n\Delta \hat{C})e^{i[(n-m)\hat{C} + (n^2 - m^2)\Delta \hat{C}]}\bigg]}}$
 \end{figure}
 \end{frame}
 
@@ -661,11 +704,10 @@ $\mathnormal{{\widetilde{I}} =
 \frametitle{Результаты}\label{t1}
 \begin{center}
 	\begin{itemize}
-		\item Для станции 1-4 описан \textbf{способ уширения} ондуляторного спектра;
-		\item Для станций 1-1 и 1-2 посчитаны удельные \textbf{тепловые нагрузки} на оптические элементы;
-		\item Получены \textbf{сечения пучка} излучения на выходе оптических элементов для станций 1-1, 1-2, 1-4;
-		\item Разработана надёжная \textbf{программная база} для дальнейших расчётов
-		
+		\item Для станции 1-4 описан \textbf{способ уширения} ондуляторного спектра.
+		\item Для станций 1-1 и 1-2 посчитаны удельные \textbf{тепловые нагрузки} на оптические элементы.
+		\item Получены \textbf{сечения пучка} излучения на выходе оптических элементов для станций 1-4.
+		\item Разработана надёжная \textbf{программная база} для дальнейших расчётов.		
 	\end{itemize}
 \end{center}
 За расчётами по проекту ЦКП <<СКИФ>> можно следить на:\\
